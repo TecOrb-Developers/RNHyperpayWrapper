@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d ny avisering</item>
+    <item quantity="other">%d nya aviseringar</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navigera hem"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navigera uppåt"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Fler alternativ"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Klar"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Visa alla"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Välj en app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"AV"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"PÅ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt + "</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl + "</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"retur"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funktion + "</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta + "</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Skift + "</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"blanksteg"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Symbol + "</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Meny + "</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Sök …"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Ta bort frågan"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Sökfråga"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Sök"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Skicka fråga"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Röstsökning"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Dela med"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Dela med <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Komprimera"</string>
+    <string name="bottomsheet_action_expand_halfway">Utöka till hälften</string>
+    <string name="character_counter_content_description">%1$d av %2$d tecken har angetts</string>
+    <string name="character_counter_overflowed_content_description">Teckengränsen har överskridits: %1$d av %2$d</string>
+    <string name="checkout_auth_confirm_payment">Bekräftar betalning</string>
+    <string name="checkout_choose_card_type">Välj korttyp</string>
+    <string name="checkout_error_account_expiration_date_invalid">Utgångsdatumet stämmer inte. Använd formatet MM/ÅÅ eller MM/ÅÅÅÅ</string>
+    <string name="checkout_error_account_expired">Kontot har utgått</string>
+    <string name="checkout_error_account_holder_invalid">Kontoinnehavarens namn är ogilitigt</string>
+    <string name="checkout_error_account_number_invalid">Ogilitigt kortnummer</string>
+    <string name="checkout_error_bic_bank_code_invalid">Clearingnummer eller BIC inte gilitigt</string>
+    <string name="checkout_error_card_holder_invalid">Kortinnehavarens namn är inte giltigt</string>
+    <string name="checkout_error_card_number_invalid">Kortnumrets namn är inte giltigt</string>
+    <string name="checkout_error_email_invalid">Ogilitig E-post</string>
+    <string name="checkout_error_expiration_date">Kortet har utgått</string>
+    <string name="checkout_error_expiration_date_invalid">Utgångsdatumet stämmer inte. Använd formatet MM/ÅÅ eller MM/ÅÅÅÅ</string>
+    <string name="checkout_error_iban_account_number_invalid">IBAN eller kontonummer inte giltigt</string>
+    <string name="checkout_error_iban_invalid">IBAN inte gilitigt</string>
+    <string name="checkout_error_mobile_phone_number_invalid">Ogilitigt mobilnummer</string>
+    <string name="checkout_error_national_identifier_invalid">Inkorrekt personnummer</string>
+    <string name="checkout_error_security_code_invalid">Säkerhetskoden är de 3 siffrorna på på kortets baksida</string>
+    <string name="checkout_error_security_code_invalid_amex">Säkerhetskoden är en 4-siffrig kod på kortets framsida</string>
+    <string name="checkout_fingerprint_cancel">Avbryt</string>
+    <string name="checkout_fingerprint_enter_pin">Ange PIN</string>
+    <string name="checkout_fingerprint_not_recognized">Fingeravtrycket känns inte igen, försök en gång till</string>
+    <string name="checkout_fingerprint_success">Fingeravtryck igenkänt</string>
+    <string name="checkout_fingerprint_touch_sensor">Touchsensor</string>
+    <string name="checkout_helper_account_number">Kontonummer</string>
+    <string name="checkout_helper_account_verification">Kontoverifiering</string>
+    <string name="checkout_helper_bic_bank_code">Clearingnummer eller BIC</string>
+    <string name="checkout_helper_card_holder">Namn som det framgår på kortet</string>
+    <string name="checkout_helper_card_number">Det långa numret på kortets framsida</string>
+    <string name="checkout_helper_country_code" translatable="false">+xxx</string>
+    <string name="checkout_helper_expiration_date">Använd MM/ÅÅ eller MM/ÅÅÅÅ format</string>
+    <string name="checkout_helper_iban">IBAN (International Bank Account Number)</string>
+    <string name="checkout_helper_iban_account_number">IBAN eller kontonummer</string>
+    <string name="checkout_helper_national_identifier">Personnummer</string>
+    <string name="checkout_helper_phone_number" translatable="false">xxxxxxxxx</string>
+    <string name="checkout_helper_security_code">De tre siffrorna på baksidan av kortet</string>
+    <string name="checkout_helper_security_code_amex">4-siffrig kod på kortets framsida</string>
+    <string name="checkout_layout_hint_account_number">Kontonummer</string>
+    <string name="checkout_layout_hint_account_verification">Kontoverifiering</string>
+    <string name="checkout_layout_hint_card_cvv">Säkerhetskod eller CVV</string>
+    <string name="checkout_layout_hint_card_expiration_date">Utgångsdatum</string>
+    <string name="checkout_layout_hint_card_holder">Kortinnehavarens namn</string>
+    <string name="checkout_layout_hint_card_number">Kortnummer</string>
+    <string name="checkout_layout_hint_country_code">Landskod</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_account_holder">Kontoinnehavare</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_iban">IBAN</string>
+    <string name="checkout_layout_hint_email">E-post</string>
+    <string name="checkout_layout_hint_national_identifier">Personnummer</string>
+    <string name="checkout_layout_hint_phone_number">Mobilnummer</string>
+    <string name="checkout_layout_text_accept_mbway_pin">Var snäll och godkänn överföringen med ditt PIN MB WAY.</string>
+    <string name="checkout_layout_text_cards_payment_methods">Kredit/Betalkort</string>
+    <string name="checkout_layout_text_finnish">Finska</string>
+    <string formatted="false" name="checkout_layout_text_header_amount">%.2f %s</string>
+    <string name="checkout_layout_text_order_summary">Ordersammanfattning</string>
+    <string name="checkout_layout_text_order_total">Totalt</string>
+    <string name="checkout_layout_text_other_payment_methods">Andra betalningsmetoder</string>
+    <string name="checkout_layout_text_pay">BETALA DIREKT</string>
+    <string name="checkout_layout_text_pay_amount">Betala %s</string>
+    <string name="checkout_layout_text_pay_with">Betala med</string>
+    <string name="checkout_layout_text_payment_info">Betalningsinformation</string>
+    <string name="checkout_layout_text_push_notification_sent">En pushnotis kommer att skickas till din enhet.</string>
+    <string name="checkout_layout_text_register">Registrera</string>
+    <string name="checkout_layout_text_select_bank">Välj bank</string>
+    <string name="checkout_layout_text_select_country">Välj land</string>
+    <string name="checkout_layout_text_select_payment_method">Betalningsmetod</string>
+    <string name="checkout_layout_text_ship_to">Skicka till</string>
+    <string name="checkout_layout_text_stored_payment_methods">Sparade betalningsmetoder</string>
+    <string name="checkout_layout_text_swedish">Svenska</string>
+    <string name="checkout_layout_text_terms_and_conditions">Köp &amp; Leveransvillkor</string>
+    <string name="checkout_layout_text_terms_and_conditions_agreement">Jag har läst och förstått Köp &amp; Leveransvillkor</string>
+    <string name="checkout_layout_text_total_amount">Totala summa</string>
+    <string name="checkout_number_of_installments">Antal delbetalningar</string>
+    <string name="checkout_order_review">Ordergranskning</string>
+    <string name="checkout_payment_details">Betalningsuppgifter</string>
+    <string name="checkout_processing">Bearbetas</string>
+    <string name="checkout_tokenization_checkbox">Spara betalningsuppgifter för framtida användning</string>
+    <string name="checkout_transaction_run">Vänligen vänta</string>
+    <string name="clear_text_end_icon_content_description">Rensa text</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Aktivera"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> fungerar inte om du inte aktiverar Google Play-tjänster."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Aktivera Google Play-tjänster"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installera"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan inte köras utan Google Play-tjänsterna, som saknas på enheten."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Hämta Google Play-tjänster"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Tillgänglighet för Google Plays tjänster"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Fel på Google Play-tjänster"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Det har uppstått ett fel mellan <ns1:g id="APP_NAME">%1$s</ns1:g> och Google Play-tjänsterna. Försök igen."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> fungerar inte utan Google Play-tjänsterna, som inte stöds på enheten."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Uppdatera"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan inte köras om du inte uppdaterar Google Play-tjänsterna."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Uppdatera Google Play-tjänster"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan inte köras utan Google Play-tjänster, och dessa uppdateras för närvarande."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"En ny version av Google Play-tjänster krävs. Den uppdateras automatiskt inom kort."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Öppna på mobilen"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Logga in"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Logga in med Google"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Länk kopierad till Urklipp"</string>
+    <string name="error_icon_content_description">Fel</string>
+    <string name="exposed_dropdown_menu_content_description">Visa rullgardinsmenyn</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopiera länk"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Öppna i webbläsaren"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Dela länk"</string>
+    <string name="icon_content_description">Dialogikon</string>
+    <string name="item_view_role_description">Flik</string>
+    <string name="material_clock_toggle_content_description">Välj mellan FM och EM</string>
+    <string name="material_hour_selection">Ange timme</string>
+    <string name="material_hour_suffix">Klockan %1$s</string>
+    <string name="material_minute_selection">Välj minuter</string>
+    <string name="material_minute_suffix">%1$s minuter</string>
+    <string name="material_timepicker_am">FM</string>
+    <string name="material_timepicker_clock_mode_description">Byt till klockläget och ange tid.</string>
+    <string name="material_timepicker_hour">Timme</string>
+    <string name="material_timepicker_minute">Minut</string>
+    <string name="material_timepicker_pm">EM</string>
+    <string name="material_timepicker_select_time">Välj tid</string>
+    <string name="material_timepicker_text_input_mode_description">Byt till textinmatningsläget och ange tid.</string>
+    <string name="mtrl_badge_numberless_content_description">Ny avisering</string>
+    <string name="mtrl_chip_close_icon_content_description">Ta bort (%1$s)</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Fler än %1$d nya aviseringar</string>
+    <string name="mtrl_picker_a11y_next_month">Ändra till nästa månad</string>
+    <string name="mtrl_picker_a11y_prev_month">Ändra till föregående månad</string>
+    <string name="mtrl_picker_announce_current_selection">Aktuellt val: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Välj datum</string>
+    <string name="mtrl_picker_date_header_unselected">Valt datum</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolumn med dagar: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Ogiltigt format.</string>
+    <string name="mtrl_picker_invalid_format_example">Exempel: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Använd %1$s</string>
+    <string name="mtrl_picker_invalid_range">Ogiltigt intervall.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigera till år %1$s</string>
+    <string name="mtrl_picker_out_of_range">Utanför intervallet: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Startdatum–%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s–slutdatum</string>
+    <string name="mtrl_picker_range_header_selected">%1$s–%2$s</string>
+    <string name="mtrl_picker_range_header_title">Välj intervall</string>
+    <string name="mtrl_picker_range_header_unselected">Startdatum–slutdatum</string>
+    <string name="mtrl_picker_save">Spara</string>
+    <string name="mtrl_picker_text_input_date_hint">Datum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Slutdatum</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">å</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Byt till kalender som inmatningsläge</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Byt till att välja en dag genom att trycka</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Byt till text som inmatningsläge</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Byt till att välja ett år genom att trycka</string>
+    <string name="password_toggle_content_description">Visa lösenord</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Sök"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"Köp med Google"</string>
+</resources>

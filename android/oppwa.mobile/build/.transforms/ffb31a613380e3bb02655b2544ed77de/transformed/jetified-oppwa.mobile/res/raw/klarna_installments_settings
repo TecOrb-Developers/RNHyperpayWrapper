@@ -1,0 +1,34 @@
+{
+    linkTitle: {
+        NL: "Lees meer!",
+        DE: "Lesen Sie mehr!",
+        AT: "Lesen Sie mehr!",
+        DK: "Læs mere",
+        FI: "Lue lisää",
+        NO: "Les mer",
+        SE: "Läs mer"
+    },
+    link: {
+        NL: "https://cdn.klarna.com/1.0/shared/content/legal/terms/{EID}/nl_nl/account",
+        DE: "https://cdn.klarna.com/1.0/shared/content/legal/terms/{EID}/de_de/account",
+        AT: "https://cdn.klarna.com/1.0/shared/content/legal/terms/{EID}/de_de/account",
+        DK: "https://cdn.klarna.com/1.0/shared/content/legal/terms/{EID}/da_dk/account",
+        FI: "https://cdn.klarna.com/1.0/shared/content/legal/terms/{EID}/fi_fi/account",
+        NO: "https://cdn.klarna.com/1.0/shared/content/legal/terms/{EID}/nb_no/account",
+        SE: "https://cdn.klarna.com/1.0/shared/content/legal/terms/{EID}/sv_se/account"
+    },
+    terms: {
+        NL: "/v1/paymentWidgets/img/banner/nl/credit_warning.png",
+        DE: "Mit der Übermittlung der für die Abwicklung der gewählten Klarna Zahlungsmethode und einer Identitäts- und Bonitätsprüfung erforderlichen Daten an Klarna bin ich einverstanden. Meine <a target='_blank' href='https://cdn.klarna.com/1.0/shared/content/legal/terms/{EID}/de_de/consent'>Einwilligung</a> kann ich jederzeit mit Wirkung für die Zukunft widerrufen. Es gelten die AGB des Händlers.",
+        AT: "Mit der Übermittlung der für die Abwicklung der gewählten Klarna Zahlungsmethode und einer Identitäts- und Bonitätsprüfung erforderlichen Daten an Klarna bin ich einverstanden. Meine <a target='_blank' href='https://cdn.klarna.com/1.0/shared/content/legal/terms/{EID}/de_de/consent'>Einwilligung</a> kann ich jederzeit mit Wirkung für die Zukunft widerrufen. Es gelten die AGB des Händlers."
+    },
+    title: {
+        AT: "Ratenkauf",
+        DE: "Ratenkauf",
+        DK: "Konto",
+        FI: "Tili",
+        NL: "Account",
+        NO: "Konto",
+        SE: "Konto"
+    }
+}

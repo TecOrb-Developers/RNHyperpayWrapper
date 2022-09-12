@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="checkout_auth_confirm_payment">Bevestig betaling</string>
+    <string name="checkout_choose_card_type">Kies kaarttype</string>
+    <string name="checkout_error_account_holder_invalid">Naam kaarthouder is ongeldig</string>
+    <string name="checkout_error_bic_bank_code_invalid">BIC of bankcode is ongeldig</string>
+    <string name="checkout_error_card_holder_invalid">Naam kaarthouder is niet geldig</string>
+    <string name="checkout_error_card_number_invalid">Kaartnummer is niet geldig</string>
+    <string name="checkout_error_email_invalid">Ongeldige e-mail</string>
+    <string name="checkout_error_expiration_date">Kaart is verlopen</string>
+    <string name="checkout_error_expiration_date_invalid">Vervaldatum is niet geldig, vul in als MM/JJ of MM/JJJJ</string>
+    <string name="checkout_error_iban_account_number_invalid">IBAN of bankrekeningnummer is ongeldig</string>
+    <string name="checkout_error_iban_invalid">IBAN is ongeldig</string>
+    <string name="checkout_error_mobile_phone_number_invalid">Ongeldig mobiel telefoonnummer</string>
+    <string name="checkout_error_national_identifier_invalid">Ongeldig burgerservicenummer</string>
+    <string name="checkout_error_security_code_invalid">Veiligheidscode moet de 3 laatste cijfers op de achterkant van je kaart bevatten</string>
+    <string name="checkout_error_security_code_invalid_amex">Veligheidscode moet het 4-cijferige nummer op de voorkant van je kaart bevatten</string>
+    <string name="checkout_fingerprint_cancel">Annuleer</string>
+    <string name="checkout_fingerprint_enter_pin">Voer pincode in</string>
+    <string name="checkout_fingerprint_not_recognized">Vingerafdruk niet herkend, probeer opnieuw</string>
+    <string name="checkout_fingerprint_success">Vingeradruk herkend</string>
+    <string name="checkout_fingerprint_touch_sensor">Vingerafdrukscanner</string>
+    <string name="checkout_helper_bic_bank_code">BIC of bankcode</string>
+    <string name="checkout_helper_card_holder">Naam zoals op de kaart staat</string>
+    <string name="checkout_helper_card_number">Lange nummer op de voorkant van de kaart</string>
+    <string name="checkout_helper_country_code" translatable="false">+xxx</string>
+    <string name="checkout_helper_expiration_date">Vul in als MM/JJ of MM/JJJJ</string>
+    <string name="checkout_helper_iban">Het IBAN (International Bank Account Number) van deze rekening</string>
+    <string name="checkout_helper_iban_account_number">IBAN of bankrekeningnummer</string>
+    <string name="checkout_helper_national_identifier">Burgerservicenummer</string>
+    <string name="checkout_helper_phone_number" translatable="false">xxxxxxxxx</string>
+    <string name="checkout_helper_security_code">Laatste 3 cijfers op de achterkant van je kaart</string>
+    <string name="checkout_helper_security_code_amex">4-cijferige code op de voorkant van je kaart</string>
+    <string name="checkout_layout_hint_card_cvv">Veiligheidscode of CVV</string>
+    <string name="checkout_layout_hint_card_expiration_date">Vervaldatum</string>
+    <string name="checkout_layout_hint_card_holder">Naam kaarthouder</string>
+    <string name="checkout_layout_hint_card_number">Creditcardnummer</string>
+    <string name="checkout_layout_hint_country_code">Landcode</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_account_holder">Rekeninghouder</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_iban">IBAN</string>
+    <string name="checkout_layout_hint_email">E-mail</string>
+    <string name="checkout_layout_hint_national_identifier">Burgerservicenummer</string>
+    <string name="checkout_layout_hint_phone_number">Mobiel telefoonnummer</string>
+    <string name="checkout_layout_text_accept_mbway_pin">Accepteer de transactie alsjeblieft met je pin.</string>
+    <string name="checkout_layout_text_cards_payment_methods">Creditcards</string>
+    <string name="checkout_layout_text_finnish">Finse</string>
+    <string formatted="false" name="checkout_layout_text_header_amount">%.2f %s</string>
+    <string name="checkout_layout_text_order_total">Totaal</string>
+    <string name="checkout_layout_text_other_payment_methods">Andere betaalmethodes</string>
+    <string name="checkout_layout_text_pay">Betaal</string>
+    <string name="checkout_layout_text_pay_amount">Betaal %s</string>
+    <string name="checkout_layout_text_payment_info">Betaalinformatie</string>
+    <string name="checkout_layout_text_push_notification_sent">We sturen een pushbericht naar je mobiele apparaat.</string>
+    <string name="checkout_layout_text_register">Registreer</string>
+    <string name="checkout_layout_text_select_bank">Selecteer bank</string>
+    <string name="checkout_layout_text_select_country">Selecteer land</string>
+    <string name="checkout_layout_text_select_payment_method">Betaalmethodes</string>
+    <string name="checkout_layout_text_stored_payment_methods">Opgeslagen betaalmethodes</string>
+    <string name="checkout_layout_text_swedish">Zweedse</string>
+    <string name="checkout_layout_text_terms_and_conditions">Algemene voorwaarden</string>
+    <string name="checkout_layout_text_terms_and_conditions_agreement">Ik heb de algemene voorwaarden gelezen en ga ermee akkoord</string>
+    <string name="checkout_layout_text_total_amount">Totaalbedrag</string>
+    <string name="checkout_number_of_installments">Aantal termijnen</string>
+    <string name="checkout_payment_details">Betaalgegevens</string>
+    <string name="checkout_processing">Verwerken</string>
+    <string name="checkout_tokenization_checkbox">Sla betaalgegevens op voor toekomstig gebruik</string>
+    <string name="checkout_transaction_run">Even geduld alsjeblieft</string>
+    <string name="klarna_payments_paylater">Achteraf betalen.</string>
+    <string name="klarna_payments_paynow">Betaal nu.</string>
+</resources>

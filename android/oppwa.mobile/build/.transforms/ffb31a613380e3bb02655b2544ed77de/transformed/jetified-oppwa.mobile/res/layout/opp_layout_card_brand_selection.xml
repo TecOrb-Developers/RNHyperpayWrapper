@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/windowBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.oppwa.mobile.connect.checkout.dialog.view.CheckoutTextView
+        android:id="@+id/payment_info_title"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkout_choose_card_type"
+        style="?attr/checkoutSecondaryTextViewStyle" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/grouped_cards_recycler_view"
+        android:scrollbars="horizontal"
+        android:layout_toRightOf="@id/payment_info_title"
+        android:layout_toEndOf="@id/payment_info_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

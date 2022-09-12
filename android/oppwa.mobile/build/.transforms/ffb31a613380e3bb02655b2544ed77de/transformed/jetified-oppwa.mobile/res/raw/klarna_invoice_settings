@@ -1,0 +1,33 @@
+{
+    linkTitle: {
+        NL: "Factuurvoorwaarden",
+        DE: "Rechnungsbedingungen",
+        AT: "Rechnungsbedingungen",
+        DK: "Vilkår for faktura",
+        FI: "Laskuehdot",
+        NO: "Vilkår for faktura",
+        SE: "Villkor för faktura"
+    },
+    link: {
+        NL: "https://cdn.klarna.com/1.0/shared/content/legal/terms/{EID}/nl_nl/invoice",
+        DE: "https://cdn.klarna.com/1.0/shared/content/legal/terms/{EID}/de_de/invoice",
+        AT: "https://cdn.klarna.com/1.0/shared/content/legal/terms/{EID}/de_at/invoice",
+        DK: "https://cdn.klarna.com/1.0/shared/content/legal/terms/{EID}/da_dk/invoice",
+        FI: "https://cdn.klarna.com/1.0/shared/content/legal/terms/{EID}/fi_fi/invoice",
+        NO: "https://cdn.klarna.com/1.0/shared/content/legal/terms/{EID}/nb_no/invoice",
+        SE: "https://cdn.klarna.com/1.0/shared/content/legal/terms/{EID}/sv_se/invoice"
+    },
+    terms: {
+        DE: "Mit der Übermittlung der für die Abwicklung der gewählten Klarna Zahlungsmethode und einer Identitäts- und Bonitätsprüfung erforderlichen Daten an Klarna bin ich einverstanden. Meine <a target='_blank' href='https://cdn.klarna.com/1.0/shared/content/legal/terms/{EID}/de_de/consent'>Einwilligung</a> kann ich jederzeit mit Wirkung für die Zukunft widerrufen. Es gelten die AGB des Händlers.",
+        AT: "Mit der Übermittlung der für die Abwicklung der gewählten Klarna Zahlungsmethode und einer Identitäts- und Bonitätsprüfung erforderlichen Daten an Klarna bin ich einverstanden. Meine <a target='_blank' href='https://cdn.klarna.com/1.0/shared/content/legal/terms/{EID}/de_at/consent'>Einwilligung</a> kann ich jederzeit mit Wirkung für die Zukunft widerrufen. Es gelten die AGB des Händlers."
+    },
+    title: {
+        AT: "Rechnung",
+        DE: "Rechnung",
+        DK: "Faktura",
+        FI: "Lasku",
+        NL: "Factuur",
+        NO: "Faktura",
+        SE: "Faktura"
+    }
+}

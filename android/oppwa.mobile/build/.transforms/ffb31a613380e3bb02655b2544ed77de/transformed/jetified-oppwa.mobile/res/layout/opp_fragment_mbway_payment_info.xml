@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/windowBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/opp_layout_actionbar"/>
+
+    <include
+        android:id="@+id/payment_button_layout"
+        layout="@layout/opp_layout_checkout_paybutton"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:id="@+id/payment_info_scroll_view"
+        android:layout_below="@id/header"
+        android:layout_above="@id/payment_button_layout"
+        android:paddingLeft="@dimen/checkout_payment_data_padding"
+        android:paddingRight="@dimen/checkout_payment_data_padding"
+        android:paddingBottom="@dimen/checkout_payment_data_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                layout="@layout/opp_layout_payment_info_header"
+                android:id="@+id/payment_info_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RadioGroup
+                android:id="@+id/form_type_radio_group"
+                android:layout_below="@id/payment_info_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/email_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    style="?attr/checkoutSecondaryTextViewStyle"
+                    android:text="@string/checkout_layout_hint_email" />
+
+                <RadioButton
+                    android:id="@+id/mobile_phone_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    style="?attr/checkoutSecondaryTextViewStyle"
+                    android:text="@string/checkout_layout_hint_phone_number" />
+            </RadioGroup>
+
+            <RelativeLayout
+                android:id="@+id/edit_texts_container"
+                android:layout_below="@id/form_type_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.oppwa.mobile.connect.checkout.dialog.InputLayout
+                    android:id="@+id/email_input_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.oppwa.mobile.connect.checkout.dialog.InputLayout
+                    android:id="@+id/country_code_input_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.oppwa.mobile.connect.checkout.dialog.InputLayout
+                    android:id="@+id/mobile_phone_input_layout"
+                    android:layout_below="@id/country_code_input_layout"
+                    android:layout_marginTop="-35dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/push_notification_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_texts_container"
+                android:layout_marginTop="-20dp"
+                android:text="@string/checkout_layout_text_push_notification_sent"
+                style="?attr/checkoutTextViewStyle"
+                />
+
+            <TextView
+                android:id="@+id/accept_pin_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/push_notification_text_view"
+                android:layout_marginTop="8dp"
+                android:text="@string/checkout_layout_text_accept_mbway_pin"
+                style="?attr/checkoutTextViewStyle"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

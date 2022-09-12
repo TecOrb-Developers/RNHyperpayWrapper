@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/connect_checkout_insert_payment_data_footer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.oppwa.mobile.connect.checkout.dialog.view.CheckoutButton
+        android:id="@+id/payment_button"
+        android:paddingLeft="45dp"
+        android:paddingTop="15dp"
+        android:paddingRight="45dp"
+        android:paddingBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkout_layout_text_pay"
+        style="?attr/checkoutButtonStyle" />
+
+</FrameLayout>

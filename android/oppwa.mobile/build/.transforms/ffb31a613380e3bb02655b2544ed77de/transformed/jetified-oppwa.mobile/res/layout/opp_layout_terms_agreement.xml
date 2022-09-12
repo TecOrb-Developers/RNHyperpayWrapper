@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.oppwa.mobile.connect.checkout.dialog.view.CheckoutTextView
+        android:id="@+id/agreement_link"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        style="?attr/checkoutTextViewStyle"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/agreement_checkbox"
+            app:buttonTint="?attr/checkboxButtonTintColor"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <com.oppwa.mobile.connect.checkout.dialog.view.CheckoutTextView
+            android:id="@+id/agreement_text"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            style="?attr/checkoutTextViewStyle"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/agreement_image"
+        android:scaleType="centerInside"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"/>
+
+</LinearLayout>

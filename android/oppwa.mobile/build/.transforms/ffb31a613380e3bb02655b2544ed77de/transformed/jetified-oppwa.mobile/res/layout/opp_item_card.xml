@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    >
+
+    <ImageView
+        android:id="@+id/grouped_cards_item_image"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:padding="4dp"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/content_description"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        style="?attr/checkoutMethodImageViewStyle"/>
+
+    <ProgressBar
+        android:id="@+id/loading_panel"
+        android:padding="4dp"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:indeterminate="true"/>
+</RelativeLayout>

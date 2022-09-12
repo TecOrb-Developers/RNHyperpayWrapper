@@ -1,0 +1,6 @@
+module Pods_RNHyperPay_RNHyperPayTests {
+  umbrella header "Pods-RNHyperPay-RNHyperPayTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

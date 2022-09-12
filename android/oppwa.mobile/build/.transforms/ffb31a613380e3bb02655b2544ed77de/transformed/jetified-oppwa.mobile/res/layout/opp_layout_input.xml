@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextInputLayout">
+
+        <com.oppwa.mobile.connect.checkout.dialog.view.CheckoutEditText
+            android:id="@+id/edit_text"
+            android:drawablePadding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?attr/checkoutEditTextStyle" />
+
+        <com.oppwa.mobile.connect.checkout.dialog.view.CheckoutTextView
+            android:id="@+id/helper_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?attr/checkoutHelperTextViewStyle" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

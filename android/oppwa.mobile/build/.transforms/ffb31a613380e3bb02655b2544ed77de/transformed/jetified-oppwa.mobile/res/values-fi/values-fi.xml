@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="checkout_auth_confirm_payment">Maksun vahvistaminen:</string>
+    <string name="checkout_choose_card_type">Valitse kortin tyyppi</string>
+    <string name="checkout_error_account_expiration_date_invalid">Viimeinen voimassaolopäivä ei kelpaa, käytä muotoa KK/VV tai KK/VVVV</string>
+    <string name="checkout_error_account_expired">Tili on vanhentunut</string>
+    <string name="checkout_error_account_holder_invalid">Tilinhaltijan nimi ei kelpaa</string>
+    <string name="checkout_error_account_number_invalid">Tilinumero on virheellinen</string>
+    <string name="checkout_error_bic_bank_code_invalid">BIC tai pankin tunnus ei kelpaa</string>
+    <string name="checkout_error_card_holder_invalid">Kortinhaltijan nimi ei kelpaa</string>
+    <string name="checkout_error_card_number_invalid">Annettu kortin numero ei kelpaa</string>
+    <string name="checkout_error_email_invalid">Sähköpostiosoite on virheellinen</string>
+    <string name="checkout_error_expiration_date">Kortti on vanhentunut</string>
+    <string name="checkout_error_expiration_date_invalid">Kortin viimeinen voimassaolopäivä ei kelpaa, käytä muotoa KK/VV tai KK/VVVV</string>
+    <string name="checkout_error_iban_account_number_invalid">IBAN tai tilinumero ei kelpaa</string>
+    <string name="checkout_error_iban_invalid">IBAN ei kelpaa</string>
+    <string name="checkout_error_mobile_phone_number_invalid">Matkapuhelinnumero on virheellinen</string>
+    <string name="checkout_error_national_identifier_invalid">Henkilötunnus on virheellinen</string>
+    <string name="checkout_error_security_code_invalid">Turvakoodissa on oltava kortin taustapuolella olevat 3 viimeistä numeroa</string>
+    <string name="checkout_error_security_code_invalid_amex">Turvakoodi on kortin etupuolella oleva 4-numeroinen tunnus</string>
+    <string name="checkout_fingerprint_cancel">Peruuta</string>
+    <string name="checkout_fingerprint_enter_pin">Anna PIN-koodi</string>
+    <string name="checkout_fingerprint_not_recognized">Sormenjälkeä ei tunnistettu, yritä uudelleen</string>
+    <string name="checkout_fingerprint_success">Sormenjälki tunnistettu</string>
+    <string name="checkout_fingerprint_touch_sensor">Kosketusanturi</string>
+    <string name="checkout_helper_account_number">Tilinumero</string>
+    <string name="checkout_helper_account_verification">Tilin vahvistus</string>
+    <string name="checkout_helper_bic_bank_code">BIC tai pankin tunnus</string>
+    <string name="checkout_helper_card_holder">Nimi samassa muodossa kuin kortissa</string>
+    <string name="checkout_helper_card_number">Pitkä numero kortin etupuolella</string>
+    <string name="checkout_helper_country_code" translatable="false">+xxx</string>
+    <string name="checkout_helper_expiration_date">Käytä muotoa KK/VV tai KK/VVVV</string>
+    <string name="checkout_helper_iban">Pankkitilin IBAN-tilinumero (International Bank Account Number)</string>
+    <string name="checkout_helper_iban_account_number">IBAN tai tilinumero</string>
+    <string name="checkout_helper_national_identifier">Henkilötunnus</string>
+    <string name="checkout_helper_phone_number" translatable="false">xxxxxxxxx</string>
+    <string name="checkout_helper_security_code">Kortin taustapuolella olevat 3 viimeistä numeroa</string>
+    <string name="checkout_helper_security_code_amex">Kortin etupuolella oleva nelinumeroinen tunnus</string>
+    <string name="checkout_layout_hint_account_number">Tilinumero</string>
+    <string name="checkout_layout_hint_account_verification">Tilin vahvistus</string>
+    <string name="checkout_layout_hint_card_cvv">Turvakoodi tai CVV</string>
+    <string name="checkout_layout_hint_card_expiration_date">Viimeinen voimassaolopäivä</string>
+    <string name="checkout_layout_hint_card_holder">Kortinhaltijan nimi</string>
+    <string name="checkout_layout_hint_card_number">Luottokortin numero</string>
+    <string name="checkout_layout_hint_country_code">Maatunnus</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_account_holder">Tilinhaltija</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_iban">IBAN</string>
+    <string name="checkout_layout_hint_email">Sähköposti</string>
+    <string name="checkout_layout_hint_national_identifier">Henkilötunnus</string>
+    <string name="checkout_layout_hint_phone_number">Matkapuhelinnumero</string>
+    <string name="checkout_layout_text_accept_mbway_pin">Hyväksy maksu MB WAY PIN-koodilla.</string>
+    <string name="checkout_layout_text_cards_payment_methods">Luotto-/pankkikortit</string>
+    <string name="checkout_layout_text_finnish">Suomi</string>
+    <string formatted="false" name="checkout_layout_text_header_amount">%.2f %s</string>
+    <string name="checkout_layout_text_order_summary">Tilauksen yhteenveto</string>
+    <string name="checkout_layout_text_order_total">Yhteensä</string>
+    <string name="checkout_layout_text_other_payment_methods">Muut maksutavat</string>
+    <string name="checkout_layout_text_pay">MAKSA NYT</string>
+    <string name="checkout_layout_text_pay_amount">Maksa %s</string>
+    <string name="checkout_layout_text_pay_with">Maksa:</string>
+    <string name="checkout_layout_text_payment_info">Maksun tiedot</string>
+    <string name="checkout_layout_text_push_notification_sent">Laitteeseesi lähetetään push-ilmoitus.</string>
+    <string name="checkout_layout_text_qr_code">QR-koodi</string>
+    <string name="checkout_layout_text_register">Rekisteröidy</string>
+    <string name="checkout_layout_text_select_bank">Valitse pankki</string>
+    <string name="checkout_layout_text_select_country">Valitse maa</string>
+    <string name="checkout_layout_text_select_payment_method">Maksutavat</string>
+    <string name="checkout_layout_text_ship_to">Toimitusosoite</string>
+    <string name="checkout_layout_text_stcpay_method_select">Valitse haluamasi maksutapa:</string>
+    <string name="checkout_layout_text_stored_payment_methods">Tallennetut maksutavat</string>
+    <string name="checkout_layout_text_swedish">Ruotsi</string>
+    <string name="checkout_layout_text_terms_and_conditions">Käyttöehdot</string>
+    <string name="checkout_layout_text_terms_and_conditions_agreement">Olen lukenut ja hyväksynyt käyttöehdot</string>
+    <string name="checkout_layout_text_total_amount">Kokonaissumma</string>
+    <string name="checkout_number_of_installments">Maksuerien määrä</string>
+    <string name="checkout_order_review">Tilauksen tarkistus</string>
+    <string name="checkout_payment_details">Maksutiedot</string>
+    <string name="checkout_processing">Maksua käsitellään</string>
+    <string name="checkout_tokenization_checkbox">Tallenna maksutiedot myöhempää käyttöä varten</string>
+    <string name="checkout_transaction_run">Odota hetki</string>
+    <string name="directdebit_sepa" translatable="false">SEPA-suoraveloitus</string>
+    <string name="ik_private_label" translatable="false">Hei-kortti / Hei-laina</string>
+    <string name="ikanooi_fi" translatable="false">IKEA-lasku</string>
+    <string name="paytrail" translatable="false">Verkkopankki ja MobilePay</string>
+</resources>

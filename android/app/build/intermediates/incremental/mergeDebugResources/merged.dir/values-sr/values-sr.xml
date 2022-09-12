@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d ново обавештење</item>
+    <item quantity="few">%d нова обавештења</item>
+    <item quantity="other">%d нових обавештења</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Идите на почетну"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Идите нагоре"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Још опција"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Прикажи све"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Изаберите апликацију"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ИСКЉУЧЕНО"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"УКЉУЧЕНО"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"тастер за размак"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Претражите…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Обришите упит"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Претражите упит"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Претражите"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Пошаљите упит"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Гласовна претрага"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Делите помоћу"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Делите помоћу апликације <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Скупи"</string>
+    <string name="bottomsheet_action_expand_halfway">Проширите до пола</string>
+    <string name="character_counter_content_description">Унети знакови: %1$d од %2$d</string>
+    <string name="character_counter_overflowed_content_description">Прекорачено је ограничење броја знакова: %1$d од %2$d</string>
+    <string name="checkout_auth_confirm_payment">Potvrdi plaćanje</string>
+    <string name="checkout_choose_card_type">Izaberi vrstu kartice</string>
+    <string name="checkout_error_account_expiration_date_invalid">Datum isteka je nevažeći, molimo te koristi format MM/GG ili MM/GGGG</string>
+    <string name="checkout_error_account_expired">Račun je istekao</string>
+    <string name="checkout_error_account_holder_invalid">Ime vlasnika računa je nevažeće</string>
+    <string name="checkout_error_account_number_invalid">Nevažeći broj računa</string>
+    <string name="checkout_error_bic_bank_code_invalid">BIC ili bankovni kod su nevažeći</string>
+    <string name="checkout_error_card_holder_invalid">Ime vlasnika kartice je nevažeće</string>
+    <string name="checkout_error_card_number_invalid">Uneti broj kartice je nevažeći</string>
+    <string name="checkout_error_email_invalid">Nevažeća imejl adresa</string>
+    <string name="checkout_error_expiration_date">Kartica je istekla</string>
+    <string name="checkout_error_expiration_date_invalid">Datum isteka kartice je nevažeći, koristi MM/GG ili MM/GGGG format</string>
+    <string name="checkout_error_iban_account_number_invalid">IBAN ili broj računa su nevažeći</string>
+    <string name="checkout_error_iban_invalid">IBAN je nevažeći</string>
+    <string name="checkout_error_mobile_phone_number_invalid">Nevažeći broj mobilnog telefona</string>
+    <string name="checkout_error_national_identifier_invalid">Nevažeći identifikacioni broj države</string>
+    <string name="checkout_error_security_code_invalid">Sigurnosni kod mora da sadrži poslednje 3 cifre sa poleđine tvoje kartice</string>
+    <string name="checkout_error_security_code_invalid_amex">Sigurnosni kod mora da sadrži 4-cifreni broj sa prednje strane tvoje kartice</string>
+    <string name="checkout_fingerprint_cancel">Otkaži</string>
+    <string name="checkout_fingerprint_enter_pin">Unesi PIN</string>
+    <string name="checkout_fingerprint_not_recognized">Otisak prsta nije potvrđen, pokušaj ponovo</string>
+    <string name="checkout_fingerprint_success">Otisak prsta je potvrđen</string>
+    <string name="checkout_fingerprint_touch_sensor">Senzor za dodir</string>
+    <string name="checkout_helper_account_number">Broj računa</string>
+    <string name="checkout_helper_account_verification">Verifikacija računa</string>
+    <string name="checkout_helper_bic_bank_code">BIC ili bankovni kod</string>
+    <string name="checkout_helper_card_holder">Ime kako glasi na kartici</string>
+    <string name="checkout_helper_card_number">Dugački broj sa prednje strane kartice</string>
+    <string name="checkout_helper_country_code" translatable="false">+xxx</string>
+    <string name="checkout_helper_expiration_date">Koristi MM/GG ili MM/GGGG format</string>
+    <string name="checkout_helper_iban">IBAN (Međunarodni broj bankovnog računa) povezan sa bankovnim računom</string>
+    <string name="checkout_helper_iban_account_number">IBAN ili broj računa</string>
+    <string name="checkout_helper_national_identifier">Identifikacioni broj države</string>
+    <string name="checkout_helper_phone_number" translatable="false">xxxxxxxxx</string>
+    <string name="checkout_helper_security_code">Poslednja tri broja na poleđini kartice</string>
+    <string name="checkout_helper_security_code_amex">4-cifreni kod sa prednje strane kartice</string>
+    <string name="checkout_layout_hint_account_number">Broj računa</string>
+    <string name="checkout_layout_hint_account_verification">Verifikacija računa</string>
+    <string name="checkout_layout_hint_card_cvv">Sigurnosni kod ili CVV</string>
+    <string name="checkout_layout_hint_card_expiration_date">Datum isteka</string>
+    <string name="checkout_layout_hint_card_holder">Ime vlasnika kartice</string>
+    <string name="checkout_layout_hint_card_number">Broj kreditne kartice</string>
+    <string name="checkout_layout_hint_country_code">Kod zemlje</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_account_holder">Vlasnik računa</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_iban">IBAN</string>
+    <string name="checkout_layout_hint_email">Imejl</string>
+    <string name="checkout_layout_hint_national_identifier">Identifikacioni broj države</string>
+    <string name="checkout_layout_hint_phone_number">Broj mobilnog telefona</string>
+    <string name="checkout_layout_text_accept_mbway_pin">Molimo te da prihvatiš transakciju koristeći svoj PIN MB WAY.</string>
+    <string name="checkout_layout_text_cards_payment_methods">Kreditne / debitne kartice</string>
+    <string name="checkout_layout_text_finnish">Finski</string>
+    <string formatted="false" name="checkout_layout_text_header_amount">%.2f %s</string>
+    <string name="checkout_layout_text_order_summary">Pregled porudžbine</string>
+    <string name="checkout_layout_text_order_total">UKUPNO</string>
+    <string name="checkout_layout_text_other_payment_methods">Drugi načini plaćanja</string>
+    <string name="checkout_layout_text_pay">PLATI SAD</string>
+    <string name="checkout_layout_text_pay_amount">Plati %s</string>
+    <string name="checkout_layout_text_pay_with">Plati sa</string>
+    <string name="checkout_layout_text_payment_info">Informacije o plaćanju</string>
+    <string name="checkout_layout_text_push_notification_sent">Poslaćemo push notifikaciju na tvoj uređaj.</string>
+    <string name="checkout_layout_text_register">Registruj se</string>
+    <string name="checkout_layout_text_select_bank">Izaberi banku</string>
+    <string name="checkout_layout_text_select_country">Izaberi zemlju</string>
+    <string name="checkout_layout_text_select_payment_method">Načini plaćanja</string>
+    <string name="checkout_layout_text_ship_to">Pošalji na</string>
+    <string name="checkout_layout_text_stored_payment_methods">Zabeleženi načini plaćanja</string>
+    <string name="checkout_layout_text_swedish">Švedski</string>
+    <string name="checkout_layout_text_terms_and_conditions">Uslovi korišćenja</string>
+    <string name="checkout_layout_text_terms_and_conditions_agreement">Pročitao/la sam i prihvatam Uslove korišćenja</string>
+    <string name="checkout_layout_text_total_amount">Ukupan iznos</string>
+    <string name="checkout_number_of_installments">Broj rata</string>
+    <string name="checkout_order_review">Pregled porudžbine</string>
+    <string name="checkout_payment_details">Detalji plaćanja</string>
+    <string name="checkout_processing">Procesuiranje</string>
+    <string name="checkout_tokenization_checkbox">Podaci robne kuće za naredna plaćanja</string>
+    <string name="checkout_transaction_run">Molimo te sačekaj</string>
+    <string name="clear_text_end_icon_content_description">Обриши текст</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Омогући"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> неће функционисати ако не омогућите Google Play услуге."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Омогућите Google Play услуге"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Инсталирај"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> не може да се покрене без Google Play услуга, које нису инсталиране на уређају."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Преузмите Google Play услуге"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Доступност Google Play услуга"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Грешка Google Play услуга"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> има проблема са Google Play услугама. Пробајте поново."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> не може да се покрене без Google Play услуга, које уређај не подржава."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Ажурирај"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> не може да се покрене ако не ажурирате Google Play услуге."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Ажурирајте Google Play услуге"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> не може да се покрене без Google Play услуга, које се тренутно ажурирају."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Потребна је нова верзија Google Play услуга. Ускоро ће се ажурирати."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Отвори на телефону"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Пријави ме"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Пријави ме на Google"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Линк је копиран у привремену меморију"</string>
+    <string name="error_icon_content_description">Грешка</string>
+    <string name="exposed_dropdown_menu_content_description">Прикажи падајући мени</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Копирај линк"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Отвори у прегледачу"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Дели линк"</string>
+    <string name="icon_content_description">Икона дијалога</string>
+    <string name="item_view_role_description">Картица</string>
+    <string name="material_clock_toggle_content_description">Изаберите пре подне или по подне</string>
+    <string name="material_hour_selection">Изаберите сат</string>
+    <string name="material_hour_suffix">%1$s с</string>
+    <string name="material_minute_selection">Изаберите минуте</string>
+    <string name="material_minute_suffix">%1$s мин</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Пређите у режим сата ради уноса времена.</string>
+    <string name="material_timepicker_hour">Сат</string>
+    <string name="material_timepicker_minute">Минут</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Изаберите време</string>
+    <string name="material_timepicker_text_input_mode_description">Пређите у режим уноса текста ради уноса времена.</string>
+    <string name="mtrl_badge_numberless_content_description">Ново обавештење</string>
+    <string name="mtrl_chip_close_icon_content_description">Уклоните %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Нових обавештења: више од %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Пређите на следећи месец</string>
+    <string name="mtrl_picker_a11y_prev_month">Пређите на претходни месец</string>
+    <string name="mtrl_picker_announce_current_selection">Актуелни избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Изаберите датум</string>
+    <string name="mtrl_picker_date_header_unselected">Изабрани датум</string>
+    <string name="mtrl_picker_day_of_week_column_header">Колона са данима: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Формат је неважећи.</string>
+    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Користите: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Неважећи период.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Идите на годину %1$s</string>
+    <string name="mtrl_picker_out_of_range">Изван периода: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Датум почетка – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Датум завршетка</string>
+    <string name="mtrl_picker_range_header_selected">%1$s–%2$s</string>
+    <string name="mtrl_picker_range_header_title">Изаберите период</string>
+    <string name="mtrl_picker_range_header_unselected">Датум почетка – Датум завршетка</string>
+    <string name="mtrl_picker_save">Сачувај</string>
+    <string name="mtrl_picker_text_input_date_hint">Датум</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Датум завршетка</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Датум почетка</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Пређите на режим уноса у Календару</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Додирните да бисте прешли на избор дана</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Пређите на режим уноса текста</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Додирните да бисте прешли на избор године</string>
+    <string name="password_toggle_content_description">Прикажи лозинку</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Претражите"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"Купи помоћу Google-а"</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="checkout_auth_confirm_payment">确认支付</string>
+    <string name="checkout_choose_card_type">请选择卡种</string>
+    <string name="checkout_error_account_holder_invalid">开户人姓名不正确</string>
+    <string name="checkout_error_bic_bank_code_invalid">银行识别码 或 银行代码不正确</string>
+    <string name="checkout_error_card_holder_invalid">持卡人姓名不正确</string>
+    <string name="checkout_error_card_number_invalid">输入的卡号不正确</string>
+    <string name="checkout_error_email_invalid">邮箱无效</string>
+    <string name="checkout_error_expiration_date">卡片已过期</string>
+    <string name="checkout_error_expiration_date_invalid">有效期不正确，请使用两位月份/两位年份 或 两位月份/四位年份 格式</string>
+    <string name="checkout_error_iban_account_number_invalid">国际银行账户号码 或 账号不正确</string>
+    <string name="checkout_error_iban_invalid">国际银行账户号码不正确</string>
+    <string name="checkout_error_mobile_phone_number_invalid">手机号码不正确</string>
+    <string name="checkout_error_national_identifier_invalid">身份证号码无效</string>
+    <string name="checkout_error_security_code_invalid">安全代码由卡背面签名栏数字最后三位构成</string>
+    <string name="checkout_error_security_code_invalid_amex">安全代码由卡正面的4位号码构成</string>
+    <string name="checkout_fingerprint_cancel">取消</string>
+    <string name="checkout_fingerprint_enter_pin">请输入密码</string>
+    <string name="checkout_fingerprint_not_recognized">指纹识别未成功，请再尝试</string>
+    <string name="checkout_fingerprint_success">指纹识别</string>
+    <string name="checkout_fingerprint_touch_sensor">指纹识别器</string>
+    <string name="checkout_helper_bic_bank_code">银行识别码 或 银行代码 </string>
+    <string name="checkout_helper_card_holder">卡面上的姓名</string>
+    <string name="checkout_helper_card_number">卡正面一串较长的数字</string>
+    <string name="checkout_helper_country_code" translatable="false">+xxx</string>
+    <string name="checkout_helper_expiration_date">请使用两位月份/两位年份 或 两位月份/四位年份 格式</string>
+    <string name="checkout_helper_iban">国际银行账户号码</string>
+    <string name="checkout_helper_iban_account_number">国际银行账户号码 或 账号</string>
+    <string name="checkout_helper_national_identifier">身份证号码</string>
+    <string name="checkout_helper_phone_number" translatable="false">xxxxxxxxx</string>
+    <string name="checkout_helper_security_code">卡背面签名栏数字最后三位</string>
+    <string name="checkout_helper_security_code_amex">卡正面的4位号码</string>
+    <string name="checkout_layout_hint_card_cvv">安全码 或 卡验证码</string>
+    <string name="checkout_layout_hint_card_expiration_date">有效期限</string>
+    <string name="checkout_layout_hint_card_holder">持卡人姓名</string>
+    <string name="checkout_layout_hint_card_number">卡号</string>
+    <string name="checkout_layout_hint_country_code">国家代码</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_account_holder">开户人姓名</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_iban">国际银行账户号码</string>
+    <string name="checkout_layout_hint_email">邮箱</string>
+    <string name="checkout_layout_hint_national_identifier">身份证号码</string>
+    <string name="checkout_layout_hint_phone_number">手机号码</string>
+    <string name="checkout_layout_text_accept_mbway_pin">请采用PIN MB WAY方式受理交易</string>
+    <string name="checkout_layout_text_cards_payment_methods">信用卡或借記卡</string>
+    <string name="checkout_layout_text_finnish">芬兰文</string>
+    <string formatted="false" name="checkout_layout_text_header_amount">%.2f %s</string>
+    <string name="checkout_layout_text_order_summary">支付金额</string>
+    <string name="checkout_layout_text_order_total">总计</string>
+    <string name="checkout_layout_text_other_payment_methods">其它支付方式</string>
+    <string name="checkout_layout_text_pay">立即付款</string>
+    <string name="checkout_layout_text_pay_amount">付款 %s</string>
+    <string name="checkout_layout_text_pay_with">支付方式</string>
+    <string name="checkout_layout_text_payment_info">支付信息</string>
+    <string name="checkout_layout_text_push_notification_sent">您的设备将会收到一条推送通知</string>
+    <string name="checkout_layout_text_register">注册</string>
+    <string name="checkout_layout_text_select_bank">请选择发卡银行</string>
+    <string name="checkout_layout_text_select_country">请选择国家</string>
+    <string name="checkout_layout_text_select_payment_method">支付方式</string>
+    <string name="checkout_layout_text_ship_to">收货地址</string>
+    <string name="checkout_layout_text_stored_payment_methods">已保存的支付方式</string>
+    <string name="checkout_layout_text_swedish">瑞典文</string>
+    <string name="checkout_layout_text_terms_and_conditions">条款和条件</string>
+    <string name="checkout_layout_text_terms_and_conditions_agreement">我已阅读并同意此条款和条件</string>
+    <string name="checkout_layout_text_total_amount">合计金额</string>
+    <string name="checkout_number_of_installments">分期笔数</string>
+    <string name="checkout_order_review">确认订单</string>
+    <string name="checkout_payment_details">支付信息</string>
+    <string name="checkout_processing">处理中</string>
+    <string name="checkout_tokenization_checkbox">保存支付信息方便下次购买</string>
+    <string name="checkout_transaction_run">请稍等</string>
+    <string name="directdebit_sepa" translatable="false">单一欧元支付区直接借记</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:singleLine="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ellipsize="marquee"
+    android:textAlignment="inherit"
+    android:gravity="center_vertical"
+    android:paddingStart="@dimen/checkout_payment_data_padding"
+    android:paddingLeft="@dimen/checkout_payment_data_padding"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    style="?attr/checkoutTextViewStyle"
+    />
