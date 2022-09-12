@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/connect_checkout_insert_payment_data_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.oppwa.mobile.connect.checkout.dialog.view.CheckoutTextView
+        android:id="@+id/payment_info_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingTop="25dp"
+        android:paddingBottom="20dp"
+        android:text="@string/checkout_layout_text_payment_info"
+        style="?attr/checkoutTextViewStyle" />
+
+    <RelativeLayout
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside"
+        android:padding="5dp"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        style="?attr/checkoutMethodImageViewStyle" />
+
+        <ProgressBar
+            android:id="@+id/loading_panel"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:padding="5dp"
+            android:layout_width="80dp"
+            android:layout_height="55dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:paddingLeft="24dp"
+        android:paddingTop="18dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/fingerprint_title"
+            android:text="@string/checkout_auth_confirm_payment"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/fingerprint_icon"
+            android:src="@drawable/ic_fingerprint"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/fingerprint_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/fingerprint_status"
+            android:text="@string/checkout_fingerprint_touch_sensor"
+            android:textSize="14sp"
+            android:textColor="@color/checkout_text_color_hint"
+            android:layout_alignTop="@id/fingerprint_icon"
+            android:layout_alignBottom="@id/fingerprint_icon"
+            android:layout_toEndOf="@id/fingerprint_icon"
+            android:layout_toRightOf="@id/fingerprint_icon"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:paddingStart="12dp"
+        android:paddingLeft="12dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="4dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Space
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+
+        <Button
+            android:id="@+id/enter_pin_button"
+            android:text="@string/checkout_fingerprint_enter_pin"
+            android:background="@android:color/transparent"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/cancel_button"
+            android:text="@string/checkout_fingerprint_cancel"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

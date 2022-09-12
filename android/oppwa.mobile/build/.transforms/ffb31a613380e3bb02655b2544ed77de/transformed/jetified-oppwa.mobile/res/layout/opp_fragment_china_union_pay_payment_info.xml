@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/windowBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/opp_layout_actionbar"/>
+
+    <include
+        android:id="@+id/payment_button_layout"
+        layout="@layout/opp_layout_checkout_paybutton"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:id="@+id/payment_info_scroll_view"
+        android:layout_below="@id/header"
+        android:layout_above="@id/payment_button_layout"
+        android:paddingLeft="@dimen/checkout_payment_data_padding"
+        android:paddingRight="@dimen/checkout_payment_data_padding"
+        android:paddingBottom="@dimen/checkout_payment_data_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                layout="@layout/opp_layout_payment_info_header"
+                android:id="@+id/payment_info_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.oppwa.mobile.connect.checkout.dialog.InputLayout
+                android:id="@+id/holder_text_input_layout"
+                android:layout_below="@id/payment_info_header"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

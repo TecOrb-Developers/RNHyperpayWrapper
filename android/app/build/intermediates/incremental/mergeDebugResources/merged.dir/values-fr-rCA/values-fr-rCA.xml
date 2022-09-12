@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d nouvelle notification</item>
+    <item quantity="other">%d nouvelles notifications</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Revenir à l\'accueil"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Revenir en arrière"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Autres options"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Terminé"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Tout afficher"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Sélectionner une application"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DÉSACTIVER"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ACTIVER"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"supprimer"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"entrée"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fonction+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Méta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Maj+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"espace"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Rechercher…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Effacer la requête"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Requête de recherche"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Rechercher"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Envoyer la requête"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Recherche vocale"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Partager avec"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Partager avec <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Réduire"</string>
+    <string name="bottomsheet_action_expand_halfway">Développer à moitié</string>
+    <string name="character_counter_content_description">Caractères entrés : %1$d sur %2$d</string>
+    <string name="character_counter_overflowed_content_description">Limite de caractère dépassée : %1$d sur %2$d</string>
+    <string name="checkout_auth_confirm_payment">Valider le paiement</string>
+    <string name="checkout_choose_card_type">Choisissez le type de carte</string>
+    <string name="checkout_error_account_holder_invalid">Le nom du titulaire du compte n\'est pas valable</string>
+    <string name="checkout_error_bic_bank_code_invalid">Le BIC ou code banque n\'est pas valable</string>
+    <string name="checkout_error_card_holder_invalid">Le nom du titulaire n\'est pas valable</string>
+    <string name="checkout_error_card_number_invalid">Le numéro de carte saisi n\'est pas valable</string>
+    <string name="checkout_error_email_invalid">Adresse courriel non valable</string>
+    <string name="checkout_error_expiration_date">La carte est expirée</string>
+    <string name="checkout_error_expiration_date_invalid">La date d\'expiration de la carte n\'est pas valable, utilisez le format MM/AA ou MM/AAAA</string>
+    <string name="checkout_error_iban_account_number_invalid">Le IBAN ou le numéro de compte n\'est pas valable</string>
+    <string name="checkout_error_iban_invalid">Le IBAN n\'est pas valable</string>
+    <string name="checkout_error_mobile_phone_number_invalid">Numéro de téléphone mobile non valable</string>
+    <string name="checkout_error_national_identifier_invalid">Identifiant national non valable</string>
+    <string name="checkout_error_security_code_invalid">Le code de sécurité doit contenir les 3 derniers chiffres situés au dos de votre carte</string>
+    <string name="checkout_error_security_code_invalid_amex">Le code de sécurité doit contenir les 4 chiffres sur le devant de la carte</string>
+    <string name="checkout_fingerprint_cancel">Annuler</string>
+    <string name="checkout_fingerprint_enter_pin">Entrer le PIN</string>
+    <string name="checkout_fingerprint_not_recognized">Empreinte digitale non reconnue, essayer à nouveau</string>
+    <string name="checkout_fingerprint_success">Empreinte digitale reconnue</string>
+    <string name="checkout_fingerprint_touch_sensor">Capteur tactile</string>
+    <string name="checkout_helper_bic_bank_code">BIC ou code banque</string>
+    <string name="checkout_helper_card_holder">Nom tel qu\'il apparaît sur la carte</string>
+    <string name="checkout_helper_card_number">Numéro sur le devant de la carte</string>
+    <string name="checkout_helper_country_code">+xx</string>
+    <string name="checkout_helper_expiration_date">Utiliser le format MM/AA ou MM/AAAA</string>
+    <string name="checkout_helper_iban">Numéro IBAN (identifiant international de compte bancaire) associé au compte bancaire</string>
+    <string name="checkout_helper_iban_account_number">IBAN ou numéro de compte</string>
+    <string name="checkout_helper_national_identifier">Identifiant national</string>
+    <string name="checkout_helper_security_code">3 derniers chiffres situés au dos de la carte</string>
+    <string name="checkout_helper_security_code_amex">4 chiffres sur le devant de la carte</string>
+    <string name="checkout_layout_hint_card_cvv">Code de sécurité / CVV</string>
+    <string name="checkout_layout_hint_card_expiration_date">Date d\'expiration</string>
+    <string name="checkout_layout_hint_card_holder">Nom du titulaire de la carte</string>
+    <string name="checkout_layout_hint_card_number">Numéro de carte de crédit</string>
+    <string name="checkout_layout_hint_country_code">Indicatif du pays</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_account_holder">Titulaire du compte</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_iban">IBAN</string>
+    <string name="checkout_layout_hint_email">Courriel</string>
+    <string name="checkout_layout_hint_national_identifier">Identifiant national</string>
+    <string name="checkout_layout_hint_phone_number">Numéro de téléphone mobile</string>
+    <string name="checkout_layout_text_accept_mbway_pin">Veuillez accepter la transaction avec votre code PIN MB WAY.</string>
+    <string name="checkout_layout_text_cards_payment_methods">Сarte de débit et de crédit</string>
+    <string name="checkout_layout_text_finnish">Finnois</string>
+    <string formatted="false" name="checkout_layout_text_header_amount">%.2f %s</string>
+    <string name="checkout_layout_text_order_summary">Résumé la commande</string>
+    <string name="checkout_layout_text_order_total">Total</string>
+    <string name="checkout_layout_text_other_payment_methods">D\'autres modes de paiement</string>
+    <string name="checkout_layout_text_pay">PAYER MAINTENANT</string>
+    <string name="checkout_layout_text_pay_amount">Payer %s</string>
+    <string name="checkout_layout_text_pay_with">Payer avec</string>
+    <string name="checkout_layout_text_payment_info">Informations de paiement</string>
+    <string name="checkout_layout_text_push_notification_sent">Une notification push sera envoyée à votre appareil.</string>
+    <string name="checkout_layout_text_register">S\'enregistrer</string>
+    <string name="checkout_layout_text_select_bank">Sélectionner l\'institution bancaire</string>
+    <string name="checkout_layout_text_select_country">Sélectionnez le pays</string>
+    <string name="checkout_layout_text_select_payment_method">Modes de paiement</string>
+    <string name="checkout_layout_text_ship_to">Expédier à</string>
+    <string name="checkout_layout_text_stored_payment_methods">Modes de paiement enregistrés</string>
+    <string name="checkout_layout_text_swedish">Suédois</string>
+    <string name="checkout_layout_text_terms_and_conditions">Conditions d\'utilisation</string>
+    <string name="checkout_layout_text_terms_and_conditions_agreement">J\'ai lu et j\'accepte les conditions d\'utilisation.</string>
+    <string name="checkout_layout_text_total_amount">Montant total</string>
+    <string name="checkout_number_of_installments">Nombre de versements</string>
+    <string name="checkout_order_review">Vérification de la commande</string>
+    <string name="checkout_payment_details">Détails du paiement</string>
+    <string name="checkout_processing">Traitement</string>
+    <string name="checkout_tokenization_checkbox">Mémoriser les données de paiement pour utilisation ultérieure</string>
+    <string name="checkout_transaction_run">Veuillez patienter</string>
+    <string name="clear_text_end_icon_content_description">Effacer le texte</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Activer"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas tant que vous n\'aurez pas activé les services Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Activer les services Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installer"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre appareil."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Installer les services Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Disponibilité des services Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Erreur liée aux services Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"L\'application <ns1:g id="APP_NAME">%1$s</ns1:g> éprouve un problème avec les services Google Play. Veuillez réessayer."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"L\'application <ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas sans les services Google Play, qui ne sont pas pris en charge par votre appareil."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Mettre à jour"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas tant que vous n\'aurez pas mis à jour les services Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Mettre à jour les services Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas sans les services Google Play, qui sont actuellement mis à jour."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"La nouvelle version des services Google Play est nécessaire. Elle sera bientôt installée automatiquement."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Ouvrir sur le téléphone"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Connexion"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Se connecter avec Google"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Lien copié dans le presse-papiers"</string>
+    <string name="directdebit_sepa" translatable="false">Prélèvement SEPA</string>
+    <string name="error_icon_content_description">Erreur</string>
+    <string name="exposed_dropdown_menu_content_description">Afficher le menu déroulant</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copier le lien"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Ouvrir dans le navigateur"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Partager le lien"</string>
+    <string name="icon_content_description">Icône de boîte de dialogue</string>
+    <string name="item_view_role_description">Onglet</string>
+    <string name="klarna_payments_paynow">Virement bancaire</string>
+    <string name="material_clock_toggle_content_description">Sélectionner AM ou PM</string>
+    <string name="material_hour_selection">Sélectionner l\'heure</string>
+    <string name="material_hour_suffix">%1$s heures</string>
+    <string name="material_minute_selection">Sélectionnez les minutes</string>
+    <string name="material_minute_suffix">%1$s minutes</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Passer au mode Horloge pour entrer l\'heure.</string>
+    <string name="material_timepicker_hour">Heure</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Sélectionner l\'heure</string>
+    <string name="material_timepicker_text_input_mode_description">Passer au mode Entrée de texte pour entrer l\'heure.</string>
+    <string name="mtrl_badge_numberless_content_description">Nouvelle notification</string>
+    <string name="mtrl_chip_close_icon_content_description">Supprimer %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Plus de %1$d nouvelles notifications</string>
+    <string name="mtrl_picker_a11y_next_month">Passer au mois suivant</string>
+    <string name="mtrl_picker_a11y_prev_month">Passer au mois précédent</string>
+    <string name="mtrl_picker_announce_current_selection">Sélection actuelle : %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Sélectionnez la date</string>
+    <string name="mtrl_picker_date_header_unselected">Date sélectionnée</string>
+    <string name="mtrl_picker_day_of_week_column_header">Colonne des jours : %1$s</string>
+    <string name="mtrl_picker_invalid_format">Format incorrect</string>
+    <string name="mtrl_picker_invalid_format_example">Exemple : %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Utiliser : %1$s</string>
+    <string name="mtrl_picker_invalid_range">Plage incorrecte.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Naviguer vers l\'année %1$s</string>
+    <string name="mtrl_picker_out_of_range">Hors de la plage : %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Du (date de début) au %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">Du %1$s au (date de fin)</string>
+    <string name="mtrl_picker_range_header_selected">Du %1$s au %2$s</string>
+    <string name="mtrl_picker_range_header_title">Sélectionnez la plage</string>
+    <string name="mtrl_picker_range_header_unselected">Du (date de début) au (date de fin)</string>
+    <string name="mtrl_picker_save">Enregistrer</string>
+    <string name="mtrl_picker_text_input_date_hint">Date</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Date de fin</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Date de début</string>
+    <string name="mtrl_picker_text_input_day_abbr">j</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Passer au mode d\'entrée Agenda</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Touchez pour passer à la sélection de jour</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Passer au mode d\'entrée Texte</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Touchez pour passer à la sélection d\'année</string>
+    <string name="password_toggle_content_description">Afficher le mot de passe</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Rechercher"</string>
+    <string name="sofortueberweisung" translatable="false">Banque SOFORT</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"Acheter avec Google"</string>
+</resources>

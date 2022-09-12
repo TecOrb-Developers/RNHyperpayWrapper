@@ -1,0 +1,166 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rnhyperpay"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:5:5-67
+12-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/tecorb/.gradle/caches/transforms-3/b2ec3232205e095c09543a31d56ae642/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/tecorb/.gradle/caches/transforms-3/b2ec3232205e095c09543a31d56ae642/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+14-->[:oppwa.mobile] /Users/tecorb/Desktop/Ejar/RNHyperPay/android/oppwa.mobile/build/.transforms/ffb31a613380e3bb02655b2544ed77de/transformed/jetified-oppwa.mobile/AndroidManifest.xml:11:5-74
+14-->[:oppwa.mobile] /Users/tecorb/Desktop/Ejar/RNHyperPay/android/oppwa.mobile/build/.transforms/ffb31a613380e3bb02655b2544ed77de/transformed/jetified-oppwa.mobile/AndroidManifest.xml:11:22-71
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:oppwa.mobile] /Users/tecorb/Desktop/Ejar/RNHyperPay/android/oppwa.mobile/build/.transforms/ffb31a613380e3bb02655b2544ed77de/transformed/jetified-oppwa.mobile/AndroidManifest.xml:13:5-79
+15-->[:oppwa.mobile] /Users/tecorb/Desktop/Ejar/RNHyperPay/android/oppwa.mobile/build/.transforms/ffb31a613380e3bb02655b2544ed77de/transformed/jetified-oppwa.mobile/AndroidManifest.xml:13:22-76
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:16.0.0] /Users/tecorb/.gradle/caches/transforms-3/af4721395fedc586f0e3b124e005d006/transformed/jetified-play-services-maps-16.0.0/AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:16.0.0] /Users/tecorb/.gradle/caches/transforms-3/af4721395fedc586f0e3b124e005d006/transformed/jetified-play-services-maps-16.0.0/AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:16.0.0] /Users/tecorb/.gradle/caches/transforms-3/af4721395fedc586f0e3b124e005d006/transformed/jetified-play-services-maps-16.0.0/AndroidManifest.xml:28:9-32
+20
+21    <application
+21-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:7:5-41:19
+22        android:name="com.rnhyperpay.MainApplication"
+22-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:8:7-38
+23        android:allowBackup="false"
+23-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:12:7-34
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.8.0] /Users/tecorb/.gradle/caches/transforms-3/529d2e4becb0b79410f2339366b0fe2e/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:10:7-41
+27        android:label="@string/app_name"
+27-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:9:7-39
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:11:7-52
+29        android:supportsRtl="true"
+29-->[:oppwa.mobile] /Users/tecorb/Desktop/Ejar/RNHyperPay/android/oppwa.mobile/build/.transforms/ffb31a613380e3bb02655b2544ed77de/transformed/jetified-oppwa.mobile/AndroidManifest.xml:16:18-44
+30        android:theme="@style/AppTheme"
+30-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:13:7-38
+31        android:usesCleartextTraffic="true" >
+31-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/debug/AndroidManifest.xml:8:9-44
+32        <activity
+32-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/debug/AndroidManifest.xml:11:9-111
+33            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+33-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/debug/AndroidManifest.xml:11:19-83
+34            android:exported="false" />
+34-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/debug/AndroidManifest.xml:11:84-108
+35        <activity
+35-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:14:7-25:18
+36            android:name="com.rnhyperpay.MainActivity"
+36-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:15:9-37
+37            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+37-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:17:9-118
+38            android:exported="true"
+38-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:20:9-32
+39            android:label="@string/app_name"
+39-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:16:9-41
+40            android:launchMode="singleTask"
+40-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:18:9-40
+41            android:windowSoftInputMode="adjustResize" >
+41-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:19:9-51
+42            <intent-filter>
+42-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:21:9-24:25
+43                <action android:name="android.intent.action.MAIN" />
+43-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:22:13-65
+43-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:22:21-62
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:23:13-73
+45-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:23:23-70
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:27:9-39:20
+49            android:name="com.opawa_module.HyperpayActivity"
+49-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:28:13-61
+50            android:exported="false"
+50-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:31:13-37
+51            android:launchMode="singleTop"
+51-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:29:13-43
+52            android:screenOrientation="portrait" >
+52-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:30:13-49
+53            <intent-filter>
+53-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:33:13-38:29
+54                <data android:scheme="com.hyperpayactivity" />
+54-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:34:17-63
+54-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:34:23-60
+55
+56                <action android:name="android.intent.action.VIEW" />
+56-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:35:18-70
+56-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:35:26-67
+57
+58                <category android:name="android.intent.category.DEFAULT" />
+58-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:36:17-76
+58-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:36:27-73
+59                <category android:name="android.intent.category.BROWSABLE" />
+59-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:37:17-78
+59-->/Users/tecorb/Desktop/Ejar/RNHyperPay/android/app/src/main/AndroidManifest.xml:37:27-75
+60            </intent-filter>
+61        </activity> <!-- Enables the Android Pay API -->
+62        <meta-data
+62-->[:oppwa.mobile] /Users/tecorb/Desktop/Ejar/RNHyperPay/android/oppwa.mobile/build/.transforms/ffb31a613380e3bb02655b2544ed77de/transformed/jetified-oppwa.mobile/AndroidManifest.xml:19:9-21:36
+63            android:name="com.google.android.gms.wallet.api.enabled"
+63-->[:oppwa.mobile] /Users/tecorb/Desktop/Ejar/RNHyperPay/android/oppwa.mobile/build/.transforms/ffb31a613380e3bb02655b2544ed77de/transformed/jetified-oppwa.mobile/AndroidManifest.xml:20:13-69
+64            android:value="true" />
+64-->[:oppwa.mobile] /Users/tecorb/Desktop/Ejar/RNHyperPay/android/oppwa.mobile/build/.transforms/ffb31a613380e3bb02655b2544ed77de/transformed/jetified-oppwa.mobile/AndroidManifest.xml:21:13-33
+65        <meta-data
+65-->[:oppwa.mobile] /Users/tecorb/Desktop/Ejar/RNHyperPay/android/oppwa.mobile/build/.transforms/ffb31a613380e3bb02655b2544ed77de/transformed/jetified-oppwa.mobile/AndroidManifest.xml:22:9-24:69
+66            android:name="com.google.android.gms.version"
+66-->[:oppwa.mobile] /Users/tecorb/Desktop/Ejar/RNHyperPay/android/oppwa.mobile/build/.transforms/ffb31a613380e3bb02655b2544ed77de/transformed/jetified-oppwa.mobile/AndroidManifest.xml:23:13-58
+67            android:value="@integer/google_play_services_version" /> <!-- mobile.connect.checkout activity -->
+67-->[:oppwa.mobile] /Users/tecorb/Desktop/Ejar/RNHyperPay/android/oppwa.mobile/build/.transforms/ffb31a613380e3bb02655b2544ed77de/transformed/jetified-oppwa.mobile/AndroidManifest.xml:24:13-66
+68        <activity
+68-->[:oppwa.mobile] /Users/tecorb/Desktop/Ejar/RNHyperPay/android/oppwa.mobile/build/.transforms/ffb31a613380e3bb02655b2544ed77de/transformed/jetified-oppwa.mobile/AndroidManifest.xml:28:9-33:58
+69            android:name="com.oppwa.mobile.connect.checkout.dialog.CheckoutActivity"
+69-->[:oppwa.mobile] /Users/tecorb/Desktop/Ejar/RNHyperPay/android/oppwa.mobile/build/.transforms/ffb31a613380e3bb02655b2544ed77de/transformed/jetified-oppwa.mobile/AndroidManifest.xml:29:13-85
+70            android:configChanges="orientation"
+70-->[:oppwa.mobile] /Users/tecorb/Desktop/Ejar/RNHyperPay/android/oppwa.mobile/build/.transforms/ffb31a613380e3bb02655b2544ed77de/transformed/jetified-oppwa.mobile/AndroidManifest.xml:30:13-48
+71            android:exported="false"
+71-->[:oppwa.mobile] /Users/tecorb/Desktop/Ejar/RNHyperPay/android/oppwa.mobile/build/.transforms/ffb31a613380e3bb02655b2544ed77de/transformed/jetified-oppwa.mobile/AndroidManifest.xml:31:13-37
+72            android:theme="@style/Theme.Checkout.Light"
+72-->[:oppwa.mobile] /Users/tecorb/Desktop/Ejar/RNHyperPay/android/oppwa.mobile/build/.transforms/ffb31a613380e3bb02655b2544ed77de/transformed/jetified-oppwa.mobile/AndroidManifest.xml:32:13-56
+73            android:windowSoftInputMode="adjustResize" /> <!-- mobile.connect.checkout service -->
+73-->[:oppwa.mobile] /Users/tecorb/Desktop/Ejar/RNHyperPay/android/oppwa.mobile/build/.transforms/ffb31a613380e3bb02655b2544ed77de/transformed/jetified-oppwa.mobile/AndroidManifest.xml:33:13-55
+74        <service
+74-->[:oppwa.mobile] /Users/tecorb/Desktop/Ejar/RNHyperPay/android/oppwa.mobile/build/.transforms/ffb31a613380e3bb02655b2544ed77de/transformed/jetified-oppwa.mobile/AndroidManifest.xml:36:9-38:40
+75            android:name="com.oppwa.mobile.connect.service.ConnectService"
+75-->[:oppwa.mobile] /Users/tecorb/Desktop/Ejar/RNHyperPay/android/oppwa.mobile/build/.transforms/ffb31a613380e3bb02655b2544ed77de/transformed/jetified-oppwa.mobile/AndroidManifest.xml:37:13-75
+76            android:exported="false" />
+76-->[:oppwa.mobile] /Users/tecorb/Desktop/Ejar/RNHyperPay/android/oppwa.mobile/build/.transforms/ffb31a613380e3bb02655b2544ed77de/transformed/jetified-oppwa.mobile/AndroidManifest.xml:38:13-37
+77
+78        <activity
+78-->[com.google.android.gms:play-services-base:16.0.1] /Users/tecorb/.gradle/caches/transforms-3/9fe1f066d3dd2482c3ad70b7d6bf43a3/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+79            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+79-->[com.google.android.gms:play-services-base:16.0.1] /Users/tecorb/.gradle/caches/transforms-3/9fe1f066d3dd2482c3ad70b7d6bf43a3/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+80            android:exported="false"
+80-->[com.google.android.gms:play-services-base:16.0.1] /Users/tecorb/.gradle/caches/transforms-3/9fe1f066d3dd2482c3ad70b7d6bf43a3/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+81-->[com.google.android.gms:play-services-base:16.0.1] /Users/tecorb/.gradle/caches/transforms-3/9fe1f066d3dd2482c3ad70b7d6bf43a3/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+82
+83        <provider
+83-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/tecorb/.gradle/caches/transforms-3/9dd542b615606b647ee7cfef5fb0744e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+84            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+84-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/tecorb/.gradle/caches/transforms-3/9dd542b615606b647ee7cfef5fb0744e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+85            android:authorities="com.rnhyperpay.lifecycle-process"
+85-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/tecorb/.gradle/caches/transforms-3/9dd542b615606b647ee7cfef5fb0744e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+86            android:exported="false"
+86-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/tecorb/.gradle/caches/transforms-3/9dd542b615606b647ee7cfef5fb0744e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+87            android:multiprocess="true" />
+87-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/tecorb/.gradle/caches/transforms-3/9dd542b615606b647ee7cfef5fb0744e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+88    </application>
+89
+90</manifest>

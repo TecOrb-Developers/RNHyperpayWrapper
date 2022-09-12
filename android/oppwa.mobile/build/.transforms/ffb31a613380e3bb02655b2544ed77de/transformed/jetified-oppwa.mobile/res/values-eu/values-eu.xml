@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="checkout_auth_confirm_payment">Ordainketa baieztatzeko</string>
+    <string name="checkout_choose_card_type">Aukeratu txartela-mota</string>
+    <string name="checkout_error_account_holder_invalid">Kontu-titularraren izenak ez du balio</string>
+    <string name="checkout_error_bic_bank_code_invalid">BIC-ak edo banku-kodeak ez du balio</string>
+    <string name="checkout_error_card_holder_invalid">Txartela-titularraren izenak ez du balio</string>
+    <string name="checkout_error_card_number_invalid">Txartela-zenbakiak ez du balio</string>
+    <string name="checkout_error_email_invalid">Helbide elektronikoak ez du balio</string>
+    <string name="checkout_error_expiration_date">Txartela iraungi da</string>
+    <string name="checkout_error_expiration_date_invalid">Txartelaren iraungitze-datak ez du balio, erabili HH/UU edo HH/UUUU formatua</string>
+    <string name="checkout_error_iban_account_number_invalid">IBAN-ak edo kontu-zenbakiak ez du balio</string>
+    <string name="checkout_error_iban_invalid">IBAN-ak ez du balio</string>
+    <string name="checkout_error_mobile_phone_number_invalid">Telefono zenbakiak ez du balio</string>
+    <string name="checkout_error_national_identifier_invalid">Identifikatzaile nazionalak ez du balio</string>
+    <string name="checkout_error_security_code_invalid">Segurtasun-kodea txartelaren atzealdeko azken 3 digituak izan behar ditu</string>
+    <string name="checkout_error_security_code_invalid_amex">Segurtasun-kodea txartelaren aurrealdeko 4 digituak izan behar ditu</string>
+    <string name="checkout_fingerprint_cancel">Utzi</string>
+    <string name="checkout_fingerprint_enter_pin">Sartu pasahitza</string>
+    <string name="checkout_fingerprint_not_recognized">Hatz-markak ez dira aitortu, saiatu berriro</string>
+    <string name="checkout_fingerprint_success">Hatz-markak aitortu dira</string>
+    <string name="checkout_fingerprint_touch_sensor">Ukimen-sentsorea</string>
+    <string name="checkout_helper_bic_bank_code">BIC-a edo banku-kodea</string>
+    <string name="checkout_helper_card_holder">Txartelean agertzen den izena</string>
+    <string name="checkout_helper_card_number">Txartelaren aurrealdeko zenbaki luzea</string>
+    <string name="checkout_helper_country_code" translatable="false">+xxx</string>
+    <string name="checkout_helper_expiration_date">Erabili HH/UU edo HH/UUUU formatua</string>
+    <string name="checkout_helper_iban">Banku-kontuarekin lotuta dagoen IBAN-a (banku-kontuaren kode internazionala)</string>
+    <string name="checkout_helper_iban_account_number">IBAN-a edo kontu-zenbakia</string>
+    <string name="checkout_helper_national_identifier">Identifikatzaile nazionala</string>
+    <string name="checkout_helper_phone_number" translatable="false">xxxxxxxxx</string>
+    <string name="checkout_helper_security_code">Txartelaren atzealdeko azken 3 digituak</string>
+    <string name="checkout_helper_security_code_amex">Txartelaren aurrealdeko 4 digituko kodea</string>
+    <string name="checkout_layout_hint_card_cvv">Segurtasun-kodea edo CVV-a</string>
+    <string name="checkout_layout_hint_card_expiration_date">Iraungitze-data</string>
+    <string name="checkout_layout_hint_card_holder">Txartela-titularraren izena</string>
+    <string name="checkout_layout_hint_card_number">Kreditu-txartelaren zenbakia</string>
+    <string name="checkout_layout_hint_country_code">Herrialde-kodea</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_account_holder">Kontuaren titularra</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_iban">IBAN</string>
+    <string name="checkout_layout_hint_email">Helbide elektronikoa</string>
+    <string name="checkout_layout_hint_national_identifier">Identifikatzaile nazionala</string>
+    <string name="checkout_layout_hint_phone_number">Telefono mugikorraren zenbakia</string>
+    <string name="checkout_layout_text_accept_mbway_pin">Mesedez, onartu transakzioa PIN MB WAY erabiliz.</string>
+    <string name="checkout_layout_text_cards_payment_methods">Kreditu/zordunketa-txartelak</string>
+    <string name="checkout_layout_text_finnish">Finlandiera</string>
+    <string formatted="false" name="checkout_layout_text_header_amount">%.2f %s</string>
+    <string name="checkout_layout_text_order_summary">Eskaeraren laburpena</string>
+    <string name="checkout_layout_text_order_total">Guztira</string>
+    <string name="checkout_layout_text_other_payment_methods">Beste ordaintzeko moduak</string>
+    <string name="checkout_layout_text_pay">ORDAINDU ORAIN</string>
+    <string name="checkout_layout_text_pay_amount">Ordaindu %s</string>
+    <string name="checkout_layout_text_pay_with">Ordainketa-metodoa</string>
+    <string name="checkout_layout_text_payment_info">Ordainketaren informazioa</string>
+    <string name="checkout_layout_text_push_notification_sent">Jakinarazpen automatiko bat bidaliko da zure gailura.</string>
+    <string name="checkout_layout_text_register">Erregistratu</string>
+    <string name="checkout_layout_text_select_bank">Aukeratu bankua</string>
+    <string name="checkout_layout_text_select_country">Aukeratu herrialdea</string>
+    <string name="checkout_layout_text_select_payment_method">Ordaintzeko moduak</string>
+    <string name="checkout_layout_text_ship_to">Bidalketa</string>
+    <string name="checkout_layout_text_stored_payment_methods">Gordetako ordaintzeko moduak</string>
+    <string name="checkout_layout_text_swedish">Suediera</string>
+    <string name="checkout_layout_text_terms_and_conditions">Baldintzak eta betebeharrak</string>
+    <string name="checkout_layout_text_terms_and_conditions_agreement">Baldintzak eta betebeharrak irakurri eta onartzen ditut</string>
+    <string name="checkout_layout_text_total_amount">Guztira</string>
+    <string name="checkout_number_of_installments">Epeak</string>
+    <string name="checkout_order_review">Eskaeraren laburpena</string>
+    <string name="checkout_payment_details">Ordainketaren xehetasunak</string>
+    <string name="checkout_processing">Tramitazioa</string>
+    <string name="checkout_tokenization_checkbox">Gorde ordainketaren xehetasunak etorkizunean erabiltzeko</string>
+    <string name="checkout_transaction_run">Itxaron, mesedez</string>
+    <string name="directdebit_sepa" translatable="false">SEPA zordunketa zuzena</string>
+    <string name="sofortueberweisung" translatable="false">SOFORT BANKING</string>
+</resources>

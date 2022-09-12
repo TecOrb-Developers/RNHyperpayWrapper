@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/windowBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/opp_layout_actionbar"/>
+
+    <include
+        android:id="@+id/payment_button_layout"
+        layout="@layout/opp_layout_checkout_paybutton"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:id="@+id/payment_info_scroll_view"
+        android:layout_below="@id/header"
+        android:layout_above="@id/payment_button_layout"
+        android:paddingStart="@dimen/checkout_payment_data_padding"
+        android:paddingEnd="@dimen/checkout_payment_data_padding"
+        android:paddingBottom="@dimen/checkout_payment_data_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                layout="@layout/opp_layout_payment_info_header"
+                android:id="@+id/payment_info_header"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- card number -->
+            <RelativeLayout
+                android:id="@+id/number_input_wrapper_layout"
+                android:layout_below="@id/payment_info_header"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.oppwa.mobile.connect.checkout.dialog.CardNumberInputLayout
+                    android:id="@+id/number_input_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <include
+                    layout="@layout/opp_item_card_brands"
+                    android:id="@+id/ic_brand"
+                    android:layout_marginTop="@dimen/checkout_card_number_input_layout_brand_logo_margin_top"
+
+                    android:visibility="invisible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/ic_camera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_camera"
+                    android:visibility="invisible"
+                    android:paddingTop="@dimen/checkout_card_number_input_layout_camera_icon_margin_top"
+                    android:tint="?attr/cameraTintColor"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <com.oppwa.mobile.connect.checkout.dialog.CardBrandSelectionLayout
+                android:id="@+id/card_brand_selection_layout"
+                android:layout_below="@id/number_input_wrapper_layout"
+                android:layout_width="match_parent"
+                android:layout_marginTop="-15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="0dp" />
+
+            <!-- card holder -->
+            <com.oppwa.mobile.connect.checkout.dialog.InputLayout
+                android:id="@+id/holder_input_layout"
+                android:layout_below="@id/card_brand_selection_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@+id/expiry_date_and_cvv"
+                android:orientation="horizontal"
+                android:layout_below="@id/holder_input_layout"
+                android:layout_marginTop="-5dp"
+                android:baselineAligned="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- card expiry date -->
+                <com.oppwa.mobile.connect.checkout.dialog.DateInputLayout
+                    android:id="@+id/expiry_date_input_layout"
+                    android:layout_weight="1.0"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+                <!-- card cvv -->
+                <com.oppwa.mobile.connect.checkout.dialog.InputLayout
+                    android:id="@+id/cvv_input_layout"
+                    android:layout_weight="1.0"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/country_code_and_phone_number"
+                android:orientation="horizontal"
+                android:layout_below="@id/expiry_date_and_cvv"
+                android:layout_marginTop="-5dp"
+                android:baselineAligned="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- country code -->
+                <com.oppwa.mobile.connect.checkout.dialog.InputLayout
+                    android:id="@+id/country_code_input_layout"
+                    android:layout_weight="0.3"
+                    android:visibility="gone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+                <!-- phone number -->
+                <com.oppwa.mobile.connect.checkout.dialog.InputLayout
+                    android:id="@+id/phone_number_input_layout"
+                    android:layout_weight="0.7"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="gone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/number_of_installments_frame"
+                android:layout_below="@id/country_code_and_phone_number"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <include
+                    layout="@layout/opp_layout_installments_dropdown"
+                    android:id="@+id/number_of_installments_layout"
+                    android:visibility="gone" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/store_payment_info_layout_frame"
+                android:layout_below="@id/number_of_installments_frame"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <include
+                    layout="@layout/opp_layout_store_payment_info"
+                    android:id="@+id/store_payment_info_layout"
+                    android:visibility="gone" />
+
+            </FrameLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/windowBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/opp_layout_actionbar"/>
+
+    <ProgressBar
+        android:id="@+id/connect_checkout_transaction_execute_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"/>
+
+    <com.oppwa.mobile.connect.checkout.dialog.view.CheckoutTextView
+        android:id="@+id/connect_checkout_transaction_execute_hint"
+        android:text="@string/checkout_transaction_run"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/connect_checkout_transaction_execute_indicator"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        style="?attr/checkoutProgressTextViewStyle"/>
+
+</RelativeLayout>

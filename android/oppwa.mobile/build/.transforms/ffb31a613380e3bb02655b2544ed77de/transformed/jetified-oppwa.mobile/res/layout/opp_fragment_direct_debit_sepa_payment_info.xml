@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/windowBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/opp_layout_actionbar"/>
+
+    <include
+        android:id="@+id/payment_button_layout"
+        layout="@layout/opp_layout_checkout_paybutton"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:id="@+id/payment_info_scroll_view"
+        android:layout_below="@id/header"
+        android:layout_above="@id/payment_button_layout"
+        android:paddingLeft="@dimen/checkout_payment_data_padding"
+        android:paddingRight="@dimen/checkout_payment_data_padding"
+        android:paddingBottom="@dimen/checkout_payment_data_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                layout="@layout/opp_layout_payment_info_header"
+                android:id="@+id/payment_info_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- Account Holder -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/holder_text_input_layout"
+                android:layout_below="@id/payment_info_header"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextInputLayout">
+
+                <com.oppwa.mobile.connect.checkout.dialog.view.CheckoutEditText
+                    android:id="@+id/holder_edit_text"
+                    android:hint="@string/checkout_layout_hint_direct_debit_sepa_account_holder"
+                    android:inputType="textCapCharacters|textNoSuggestions"
+                    android:maxLength="@integer/accountHolderMaxLength"
+                    android:privateImeOptions="nm"
+                    android:imeOptions="actionNext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="?attr/checkoutEditTextStyle"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.oppwa.mobile.connect.checkout.dialog.view.CheckoutTextView
+                android:id="@+id/holder_helper"
+                android:layout_below="@id/holder_text_input_layout"
+                android:layout_marginTop="-25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?attr/checkoutHelperTextViewStyle"/>
+
+            <!-- IBAN -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/iban_text_input_layout"
+                android:layout_below="@id/holder_helper"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextInputLayout">
+
+                <com.oppwa.mobile.connect.checkout.dialog.view.CheckoutEditText
+                    android:id="@+id/iban_edit_text"
+                    android:hint="@string/checkout_layout_hint_direct_debit_sepa_iban"
+                    android:inputType="textCapCharacters|textNoSuggestions"
+                    android:maxLength="@integer/ibanMaxLength"
+                    android:privateImeOptions="nm"
+                    android:imeOptions="actionDone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="?attr/checkoutEditTextStyle"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.oppwa.mobile.connect.checkout.dialog.view.CheckoutTextView
+                android:id="@+id/iban_helper"
+                android:hint="@string/checkout_helper_iban"
+                android:layout_below="@id/iban_text_input_layout"
+                android:layout_marginTop="-25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?attr/checkoutHelperTextViewStyle"/>
+
+            <FrameLayout
+                android:layout_below="@id/iban_helper"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <include
+                    layout="@layout/opp_layout_store_payment_info"
+                    android:id="@+id/store_payment_info_layout"
+                    android:visibility="gone"/>
+
+            </FrameLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

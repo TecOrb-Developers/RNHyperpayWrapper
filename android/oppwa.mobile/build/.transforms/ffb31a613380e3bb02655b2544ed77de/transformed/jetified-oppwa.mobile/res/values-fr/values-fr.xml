@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="checkout_auth_confirm_payment">Valider le paiement</string>
+    <string name="checkout_choose_card_type">Choisissez le type de carte</string>
+    <string name="checkout_error_account_holder_invalid">Le nom du titulaire du compte n\'est pas valable</string>
+    <string name="checkout_error_bic_bank_code_invalid">Le BIC ou code banque n\'est pas valable</string>
+    <string name="checkout_error_card_holder_invalid">Le nom du titulaire n\'est pas valable</string>
+    <string name="checkout_error_card_number_invalid">Le numéro de carte saisi n\'est pas valable</string>
+    <string name="checkout_error_email_invalid">Email non valide</string>
+    <string name="checkout_error_expiration_date">La carte est expirée</string>
+    <string name="checkout_error_expiration_date_invalid">La date d\'expiration de la carte n\'est pas valable, utilisez le format MM/AA ou MM/AAAA</string>
+    <string name="checkout_error_iban_account_number_invalid">Le IBAN ou le numéro de compte n\'est pas valable</string>
+    <string name="checkout_error_iban_invalid">Le IBAN n\'est pas valable</string>
+    <string name="checkout_error_mobile_phone_number_invalid">Numéro de téléphone mobile non valide</string>
+    <string name="checkout_error_national_identifier_invalid">Identifiant national non valide</string>
+    <string name="checkout_error_security_code_invalid">Le code de sécurité doit contenir les 3 derniers chiffres situés au dos de votre carte</string>
+    <string name="checkout_error_security_code_invalid_amex">Le code de sécurité doit contenir les 4 chiffres sur le devant de la carte</string>
+    <string name="checkout_fingerprint_cancel">Annuler</string>
+    <string name="checkout_fingerprint_enter_pin">Composez votre PIN</string>
+    <string name="checkout_fingerprint_not_recognized">Empreinte digitale non reconnue, essayer à nouveau</string>
+    <string name="checkout_fingerprint_success">Empreinte digitale reconnue</string>
+    <string name="checkout_fingerprint_touch_sensor">Capteur tactile</string>
+    <string name="checkout_helper_bic_bank_code">BIC ou code banque</string>
+    <string name="checkout_helper_card_holder">Nom tel qu\'il apparaît sur la carte</string>
+    <string name="checkout_helper_card_number">Numéro sur le devant de la carte</string>
+    <string name="checkout_helper_country_code">+xx</string>
+    <string name="checkout_helper_expiration_date">Utiliser le format MM/AA ou MM/AAAA</string>
+    <string name="checkout_helper_iban">Numéro IBAN (identifiant international de compte bancaire) associé au compte bancaire</string>
+    <string name="checkout_helper_iban_account_number">IBAN ou numéro de compte</string>
+    <string name="checkout_helper_national_identifier">Identifiant national</string>
+    <string name="checkout_helper_security_code">3 derniers chiffres situés au dos de votre carte</string>
+    <string name="checkout_helper_security_code_amex">4 chiffres sur le devant de la carte</string>
+    <string name="checkout_layout_hint_card_cvv">Code de sécurité / CVV</string>
+    <string name="checkout_layout_hint_card_expiration_date">Date d\'expiration</string>
+    <string name="checkout_layout_hint_card_holder">Nom du titulaire de la carte</string>
+    <string name="checkout_layout_hint_card_number">Numéro de carte de crédit</string>
+    <string name="checkout_layout_hint_country_code">Indicatif du pays</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_account_holder">Titulaire du compte</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_iban">IBAN</string>
+    <string name="checkout_layout_hint_email">Email</string>
+    <string name="checkout_layout_hint_national_identifier">Identifiant national</string>
+    <string name="checkout_layout_hint_phone_number">Numéro de téléphone mobile</string>
+    <string name="checkout_layout_text_accept_mbway_pin">Veuillez accepter la transaction avec votre code PIN MB WAY.</string>
+    <string name="checkout_layout_text_cards_payment_methods">Сarte de débit et de crédit</string>
+    <string name="checkout_layout_text_finnish">Finnois</string>
+    <string formatted="false" name="checkout_layout_text_header_amount">%.2f %s</string>
+    <string name="checkout_layout_text_order_summary">Résumé de la commande</string>
+    <string name="checkout_layout_text_order_total">Total</string>
+    <string name="checkout_layout_text_other_payment_methods">D\'autres modes de paiement</string>
+    <string name="checkout_layout_text_pay">Payez maintenant</string>
+    <string name="checkout_layout_text_pay_amount">Payer %s</string>
+    <string name="checkout_layout_text_pay_with">Payer avec</string>
+    <string name="checkout_layout_text_payment_info">Informations de paiement</string>
+    <string name="checkout_layout_text_push_notification_sent">Une notification push sera envoyée à votre appareil.</string>
+    <string name="checkout_layout_text_register">Registre</string>
+    <string name="checkout_layout_text_select_bank">Sélectionnez la Banque</string>
+    <string name="checkout_layout_text_select_country">Sélectionnez le pays</string>
+    <string name="checkout_layout_text_select_payment_method">Moyens de paiement</string>
+    <string name="checkout_layout_text_ship_to">Expédier à</string>
+    <string name="checkout_layout_text_stored_payment_methods">Modes de paiement enregistrés</string>
+    <string name="checkout_layout_text_swedish">Suédois</string>
+    <string name="checkout_layout_text_terms_and_conditions">Termes et conditions</string>
+    <string name="checkout_layout_text_terms_and_conditions_agreement">J\'ai lu et j\'accepte les termes et conditions</string>
+    <string name="checkout_layout_text_total_amount">Montant total</string>
+    <string name="checkout_number_of_installments">Nombre de versements</string>
+    <string name="checkout_order_review">Vérification de la commande</string>
+    <string name="checkout_payment_details">Détails du paiement</string>
+    <string name="checkout_processing">Traitement</string>
+    <string name="checkout_tokenization_checkbox">Memoriser vos coordonnées de paiement pour une utilisation ultérieure</string>
+    <string name="checkout_transaction_run">Veuillez patienter</string>
+    <string name="directdebit_sepa" translatable="false">Prélèvement SEPA</string>
+    <string name="klarna_payments_paynow">Virement bancaire</string>
+    <string name="sofortueberweisung" translatable="false">Banque SOFORT</string>
+</resources>

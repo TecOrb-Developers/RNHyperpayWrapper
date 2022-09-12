@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d jakinarazpen berri</item>
+    <item quantity="other">%d jakinarazpen berri</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Joan orri nagusira"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Joan gora"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Aukera gehiago"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Eginda"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ikusi guztiak"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Aukeratu aplikazio bat"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESAKTIBATU"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AKTIBATU"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ktrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"ezabatu"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"sartu"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funtzioa +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Maius +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"zuriunea"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menua +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Bilatu…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Garbitu kontsulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Bilaketa-kontsulta"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Bilatu"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Bidali kontsulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Ahozko bilaketa"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Partekatu honekin"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Partekatu <ns1:g id="APPLICATION_NAME">%s</ns1:g> aplikazioarekin"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Tolestu"</string>
+    <string name="bottomsheet_action_expand_halfway">Zabaldu erdiraino</string>
+    <string name="character_counter_content_description">%1$d/%2$d karaktere idatzi dira</string>
+    <string name="character_counter_overflowed_content_description">Karaktere-muga gainditu da: %1$d/%2$d</string>
+    <string name="checkout_auth_confirm_payment">Ordainketa baieztatzeko</string>
+    <string name="checkout_choose_card_type">Aukeratu txartela-mota</string>
+    <string name="checkout_error_account_holder_invalid">Kontu-titularraren izenak ez du balio</string>
+    <string name="checkout_error_bic_bank_code_invalid">BIC-ak edo banku-kodeak ez du balio</string>
+    <string name="checkout_error_card_holder_invalid">Txartela-titularraren izenak ez du balio</string>
+    <string name="checkout_error_card_number_invalid">Txartela-zenbakiak ez du balio</string>
+    <string name="checkout_error_email_invalid">Helbide elektronikoak ez du balio</string>
+    <string name="checkout_error_expiration_date">Txartela iraungi da</string>
+    <string name="checkout_error_expiration_date_invalid">Txartelaren iraungitze-datak ez du balio, erabili HH/UU edo HH/UUUU formatua</string>
+    <string name="checkout_error_iban_account_number_invalid">IBAN-ak edo kontu-zenbakiak ez du balio</string>
+    <string name="checkout_error_iban_invalid">IBAN-ak ez du balio</string>
+    <string name="checkout_error_mobile_phone_number_invalid">Telefono zenbakiak ez du balio</string>
+    <string name="checkout_error_national_identifier_invalid">Identifikatzaile nazionalak ez du balio</string>
+    <string name="checkout_error_security_code_invalid">Segurtasun-kodea txartelaren atzealdeko azken 3 digituak izan behar ditu</string>
+    <string name="checkout_error_security_code_invalid_amex">Segurtasun-kodea txartelaren aurrealdeko 4 digituak izan behar ditu</string>
+    <string name="checkout_fingerprint_cancel">Utzi</string>
+    <string name="checkout_fingerprint_enter_pin">Sartu pasahitza</string>
+    <string name="checkout_fingerprint_not_recognized">Hatz-markak ez dira aitortu, saiatu berriro</string>
+    <string name="checkout_fingerprint_success">Hatz-markak aitortu dira</string>
+    <string name="checkout_fingerprint_touch_sensor">Ukimen-sentsorea</string>
+    <string name="checkout_helper_bic_bank_code">BIC-a edo banku-kodea</string>
+    <string name="checkout_helper_card_holder">Txartelean agertzen den izena</string>
+    <string name="checkout_helper_card_number">Txartelaren aurrealdeko zenbaki luzea</string>
+    <string name="checkout_helper_country_code" translatable="false">+xxx</string>
+    <string name="checkout_helper_expiration_date">Erabili HH/UU edo HH/UUUU formatua</string>
+    <string name="checkout_helper_iban">Banku-kontuarekin lotuta dagoen IBAN-a (banku-kontuaren kode internazionala)</string>
+    <string name="checkout_helper_iban_account_number">IBAN-a edo kontu-zenbakia</string>
+    <string name="checkout_helper_national_identifier">Identifikatzaile nazionala</string>
+    <string name="checkout_helper_phone_number" translatable="false">xxxxxxxxx</string>
+    <string name="checkout_helper_security_code">Txartelaren atzealdeko azken 3 digituak</string>
+    <string name="checkout_helper_security_code_amex">Txartelaren aurrealdeko 4 digituko kodea</string>
+    <string name="checkout_layout_hint_card_cvv">Segurtasun-kodea edo CVV-a</string>
+    <string name="checkout_layout_hint_card_expiration_date">Iraungitze-data</string>
+    <string name="checkout_layout_hint_card_holder">Txartela-titularraren izena</string>
+    <string name="checkout_layout_hint_card_number">Kreditu-txartelaren zenbakia</string>
+    <string name="checkout_layout_hint_country_code">Herrialde-kodea</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_account_holder">Kontuaren titularra</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_iban">IBAN</string>
+    <string name="checkout_layout_hint_email">Helbide elektronikoa</string>
+    <string name="checkout_layout_hint_national_identifier">Identifikatzaile nazionala</string>
+    <string name="checkout_layout_hint_phone_number">Telefono mugikorraren zenbakia</string>
+    <string name="checkout_layout_text_accept_mbway_pin">Mesedez, onartu transakzioa PIN MB WAY erabiliz.</string>
+    <string name="checkout_layout_text_cards_payment_methods">Kreditu/zordunketa-txartelak</string>
+    <string name="checkout_layout_text_finnish">Finlandiera</string>
+    <string formatted="false" name="checkout_layout_text_header_amount">%.2f %s</string>
+    <string name="checkout_layout_text_order_summary">Eskaeraren laburpena</string>
+    <string name="checkout_layout_text_order_total">Guztira</string>
+    <string name="checkout_layout_text_other_payment_methods">Beste ordaintzeko moduak</string>
+    <string name="checkout_layout_text_pay">ORDAINDU ORAIN</string>
+    <string name="checkout_layout_text_pay_amount">Ordaindu %s</string>
+    <string name="checkout_layout_text_pay_with">Ordainketa-metodoa</string>
+    <string name="checkout_layout_text_payment_info">Ordainketaren informazioa</string>
+    <string name="checkout_layout_text_push_notification_sent">Jakinarazpen automatiko bat bidaliko da zure gailura.</string>
+    <string name="checkout_layout_text_register">Erregistratu</string>
+    <string name="checkout_layout_text_select_bank">Aukeratu bankua</string>
+    <string name="checkout_layout_text_select_country">Aukeratu herrialdea</string>
+    <string name="checkout_layout_text_select_payment_method">Ordaintzeko moduak</string>
+    <string name="checkout_layout_text_ship_to">Bidalketa</string>
+    <string name="checkout_layout_text_stored_payment_methods">Gordetako ordaintzeko moduak</string>
+    <string name="checkout_layout_text_swedish">Suediera</string>
+    <string name="checkout_layout_text_terms_and_conditions">Baldintzak eta betebeharrak</string>
+    <string name="checkout_layout_text_terms_and_conditions_agreement">Baldintzak eta betebeharrak irakurri eta onartzen ditut</string>
+    <string name="checkout_layout_text_total_amount">Guztira</string>
+    <string name="checkout_number_of_installments">Epeak</string>
+    <string name="checkout_order_review">Eskaeraren laburpena</string>
+    <string name="checkout_payment_details">Ordainketaren xehetasunak</string>
+    <string name="checkout_processing">Tramitazioa</string>
+    <string name="checkout_tokenization_checkbox">Gorde ordainketaren xehetasunak etorkizunean erabiltzeko</string>
+    <string name="checkout_transaction_run">Itxaron, mesedez</string>
+    <string name="clear_text_end_icon_content_description">Garbitu testua</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Gaitu"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> aplikazioak ez du funtzionatuko Google Play zerbitzuak gaitzen ez badituzu."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Gaitu Google Play zerbitzuak"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Instalatu"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ez da exekutatuko Google Play zerbitzurik gabe, baina ez dituzu gailuan."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Lortu Google Play zerbitzuak"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play zerbitzuen erabilgarritasuna"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play zerbitzuen errorea"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> aplikazioak arazoak ditu Google Play zerbitzuekin. Saiatu berriro."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> aplikazioa ezin da erabili Google Play zerbitzurik gabe, eta zure gailua ez da zerbitzuokin bateragarria."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Eguneratu"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ez da exekutatuko Google Play zerbitzuak eguneratzen ez badituzu."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Eguneratu Google Play zerbitzuak"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ez da exekutatuko Google Play zerbitzurik gabe; une honetan eguneratzen ari dira zerbitzuok."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play zerbitzuen bertsio berria behar da. Berehala eguneratuko da automatikoki."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Ireki telefonoan"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Hasi saioa"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Hasi saioa Google kontuarekin"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Arbelean kopiatu da esteka"</string>
+    <string name="directdebit_sepa" translatable="false">SEPA zordunketa zuzena</string>
+    <string name="error_icon_content_description">Errorea</string>
+    <string name="exposed_dropdown_menu_content_description">Erakutsi goitibeherako menua</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopiatu esteka"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Ireki arakatzailean"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Partekatu esteka"</string>
+    <string name="icon_content_description">Leihoko ikonoa</string>
+    <string name="item_view_role_description">Fitxa</string>
+    <string name="material_clock_toggle_content_description">Hautatu AM edo PM</string>
+    <string name="material_hour_selection">Hautatu ordua</string>
+    <string name="material_hour_suffix">%1$s(r)ak dira</string>
+    <string name="material_minute_selection">Hautatu minutuak</string>
+    <string name="material_minute_suffix">%1$s minutu</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Aldatu erloju modura ordua zehazteko.</string>
+    <string name="material_timepicker_hour">Ordua</string>
+    <string name="material_timepicker_minute">Minutua</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Hautatu ordua</string>
+    <string name="material_timepicker_text_input_mode_description">Ordua idazteko, aldatu testua idazteko metodora.</string>
+    <string name="mtrl_badge_numberless_content_description">Jakinarazpen berria</string>
+    <string name="mtrl_chip_close_icon_content_description">Kendu %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">%1$d jakinarazpen berri baino gehiago</string>
+    <string name="mtrl_picker_a11y_next_month">Aldatu hurrengo hilabetera</string>
+    <string name="mtrl_picker_a11y_prev_month">Aldatu aurreko hilabetera</string>
+    <string name="mtrl_picker_announce_current_selection">Oraingo hautapena: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Hautatu data</string>
+    <string name="mtrl_picker_date_header_unselected">Hautatutako data</string>
+    <string name="mtrl_picker_day_of_week_column_header">Egunen zutabea:%1$s</string>
+    <string name="mtrl_picker_invalid_format">Formatuak ez du balio.</string>
+    <string name="mtrl_picker_invalid_format_example">Adibidea: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Erabili: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Tarteak ez du balio.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Joan %1$s. urtera</string>
+    <string name="mtrl_picker_out_of_range">Onartutako barrutitik kanpo: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Hasiera-data – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Amaiera-data</string>
+    <string name="mtrl_picker_range_header_selected">%1$s-%2$s</string>
+    <string name="mtrl_picker_range_header_title">Hautatu barrutia</string>
+    <string name="mtrl_picker_range_header_unselected">Hasiera-data - Amaiera-data</string>
+    <string name="mtrl_picker_save">Gorde</string>
+    <string name="mtrl_picker_text_input_date_hint">Data</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Amaiera-data</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Hasiera-data</string>
+    <string name="mtrl_picker_text_input_day_abbr">e</string>
+    <string name="mtrl_picker_text_input_month_abbr">h</string>
+    <string name="mtrl_picker_text_input_year_abbr">u</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Aldatu egutegiaren idazketa-metodora</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Sakatu eguna hautatzeko modura aldatzeko</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Aldatu testua idazteko modura</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Sakatu urtea hautatzeko modura aldatzeko</string>
+    <string name="password_toggle_content_description">Erakutsi pasahitza</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Bilatu"</string>
+    <string name="sofortueberweisung" translatable="false">SOFORT BANKING</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"Erosi Google erabilita"</string>
+</resources>

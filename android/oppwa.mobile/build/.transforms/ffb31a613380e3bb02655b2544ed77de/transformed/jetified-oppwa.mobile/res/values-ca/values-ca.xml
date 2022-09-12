@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="checkout_auth_confirm_payment">Confirma el pagament</string>
+    <string name="checkout_choose_card_type">Tria el tipus de targeta</string>
+    <string name="checkout_error_account_holder_invalid">El nom del titular del compte no és vàlid</string>
+    <string name="checkout_error_bic_bank_code_invalid">El BIC o codi del banc no és vàlid</string>
+    <string name="checkout_error_card_holder_invalid">El nom del titular de la targeta no és vàlid</string>
+    <string name="checkout_error_card_number_invalid">El número de targeta introduït no és vàlid</string>
+    <string name="checkout_error_email_invalid">El correu electrònic no és vàlid</string>
+    <string name="checkout_error_expiration_date">La targeta ha caducat</string>
+    <string name="checkout_error_expiration_date_invalid">La data de caducitat no és vàlida, utilitza el format MM/AA o MM/AAAA</string>
+    <string name="checkout_error_iban_account_number_invalid">L\'IBAN o número de compte no és vàlid</string>
+    <string name="checkout_error_iban_invalid">L\'IBAN no és vàlid</string>
+    <string name="checkout_error_mobile_phone_number_invalid">El número de mòbil no és vàlid</string>
+    <string name="checkout_error_national_identifier_invalid">L\'identificador nacional no és vàlid</string>
+    <string name="checkout_error_security_code_invalid">El codi de seguretat està format pels últims 3 dígits de la part del darrere de la targeta</string>
+    <string name="checkout_error_security_code_invalid_amex">El codi de seguretat és el número de 4 dígits de la part frontal de la targeta</string>
+    <string name="checkout_fingerprint_cancel">Cancel·la</string>
+    <string name="checkout_fingerprint_enter_pin">Introdueix el PIN</string>
+    <string name="checkout_fingerprint_not_recognized">No s\'ha reconegut l\'empremta, torna-ho a provar</string>
+    <string name="checkout_fingerprint_success">Empremta reconeguda</string>
+    <string name="checkout_fingerprint_touch_sensor">Sensor tàctil</string>
+    <string name="checkout_helper_bic_bank_code">BIC o codi del banc</string>
+    <string name="checkout_helper_card_holder">Nom tal i com apareix a la targeta</string>
+    <string name="checkout_helper_card_number">Número llarg que es troba a la part frontal de la targeta</string>
+    <string name="checkout_helper_country_code" translatable="false">+xxx</string>
+    <string name="checkout_helper_expiration_date">Utilitza el format MM/AA o MM/AAAA</string>
+    <string name="checkout_helper_iban">L\'IBAN (Codi Internacional de Compte Bancari) associat amb el compte bancari</string>
+    <string name="checkout_helper_iban_account_number">IBAN o número de compte</string>
+    <string name="checkout_helper_national_identifier">Identificador nacional</string>
+    <string name="checkout_helper_phone_number" translatable="false">xxxxxxxxx</string>
+    <string name="checkout_helper_security_code">Últims 3 dígits que es troben a la part del darrere de la targeta</string>
+    <string name="checkout_helper_security_code_amex">Codi de 4 dígits que es troba a la part frontal de la targeta</string>
+    <string name="checkout_layout_hint_card_cvv">Codi de seguretat o CVV</string>
+    <string name="checkout_layout_hint_card_expiration_date">Data de caducitat</string>
+    <string name="checkout_layout_hint_card_holder">Nom del titular de la targeta</string>
+    <string name="checkout_layout_hint_card_number">Número de la targeta de crèdit</string>
+    <string name="checkout_layout_hint_country_code">Codi del país</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_account_holder">Titular del compte</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_iban">IBAN</string>
+    <string name="checkout_layout_hint_email">Correu electrònic</string>
+    <string name="checkout_layout_hint_national_identifier">Identificador nacional</string>
+    <string name="checkout_layout_hint_phone_number">Número de mòbil</string>
+    <string name="checkout_layout_text_accept_mbway_pin">Accepta la transacció amb el teu PIN d\'MB WAY.</string>
+    <string name="checkout_layout_text_cards_payment_methods">Targetes de crèdit/dèbit</string>
+    <string name="checkout_layout_text_finnish">Finès</string>
+    <string formatted="false" name="checkout_layout_text_header_amount">%.2f %s</string>
+    <string name="checkout_layout_text_order_summary">Resum de la comanda</string>
+    <string name="checkout_layout_text_order_total">Total</string>
+    <string name="checkout_layout_text_other_payment_methods">Altres mètodes de pagament</string>
+    <string name="checkout_layout_text_pay">PAGA ARA</string>
+    <string name="checkout_layout_text_pay_amount">Paga %s</string>
+    <string name="checkout_layout_text_pay_with">Paga amb</string>
+    <string name="checkout_layout_text_payment_info">Informació del pagament</string>
+    <string name="checkout_layout_text_push_notification_sent">S\'enviarà una notificació push al teu dispositiu.</string>
+    <string name="checkout_layout_text_register">Registra\'t</string>
+    <string name="checkout_layout_text_select_bank">Selecciona el banc</string>
+    <string name="checkout_layout_text_select_country">Selecciona el país</string>
+    <string name="checkout_layout_text_select_payment_method">Mètodes de pagament</string>
+    <string name="checkout_layout_text_ship_to">Envia a</string>
+    <string name="checkout_layout_text_stored_payment_methods">Mètodes de pagament emmagatzemats</string>
+    <string name="checkout_layout_text_swedish">Suec</string>
+    <string name="checkout_layout_text_terms_and_conditions">Termes i condicions</string>
+    <string name="checkout_layout_text_terms_and_conditions_agreement">He llegit i accepto els termes i condicions</string>
+    <string name="checkout_layout_text_total_amount">Quantitat total</string>
+    <string name="checkout_number_of_installments">Nombre de terminis</string>
+    <string name="checkout_order_review">Vista prèvia de la comanda</string>
+    <string name="checkout_payment_details">Dades del pagament</string>
+    <string name="checkout_processing">S\'està processant</string>
+    <string name="checkout_tokenization_checkbox">Emmagatzema les dades del pagament per utilitzar-les en el futur</string>
+    <string name="checkout_transaction_run">Espera</string>
+    <string name="directdebit_sepa" translatable="false">Domiciliació de dèbit directe SEPA</string>
+</resources>

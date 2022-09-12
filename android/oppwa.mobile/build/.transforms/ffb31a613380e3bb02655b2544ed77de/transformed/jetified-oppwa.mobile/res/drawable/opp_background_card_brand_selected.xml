@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@android:color/white"/>
+    <stroke android:color="@color/checkout_color_accent" android:width="2.5dp" />
+    <corners android:radius="5dp" />
+    <size android:width="@dimen/card_brand_logo_width" android:height="@dimen/card_brand_logo_height" />
+</shape>

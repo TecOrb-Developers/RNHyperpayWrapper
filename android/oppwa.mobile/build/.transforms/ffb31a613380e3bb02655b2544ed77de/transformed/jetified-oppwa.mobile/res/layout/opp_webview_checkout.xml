@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/windowBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/header_layout"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/header"
+            layout="@layout/opp_layout_actionbar"/>
+
+    </FrameLayout>
+
+    <WebView
+        android:id="@+id/checkout_webview"
+        android:layout_below="@id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:layout_below="@id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="6dp">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:indeterminate="false"
+            android:progress="100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+
+    </FrameLayout>
+
+</RelativeLayout>

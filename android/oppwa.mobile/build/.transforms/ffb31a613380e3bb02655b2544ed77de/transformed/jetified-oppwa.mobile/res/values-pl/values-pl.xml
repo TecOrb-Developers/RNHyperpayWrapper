@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="checkout_auth_confirm_payment">Aby potwierdzić płatność</string>
+    <string name="checkout_choose_card_type">Wybierz typ karty</string>
+    <string name="checkout_error_account_expiration_date_invalid">Data ważności jest nieprawidłowa, użyj formatu MM/RR lub MM/RRRR</string>
+    <string name="checkout_error_account_expired">Konto wygasło</string>
+    <string name="checkout_error_account_holder_invalid">Nazwa posiadacza rachunku jest nieprawidłowa</string>
+    <string name="checkout_error_account_number_invalid">Nieprawidłowy numer konta</string>
+    <string name="checkout_error_bic_bank_code_invalid">Kod BIC lub bankowy jest nieprawidłowy</string>
+    <string name="checkout_error_card_holder_invalid">Nazwisko posiadacza karty jest nieprawidłowe</string>
+    <string name="checkout_error_card_number_invalid">Podany numer karty jest nieprawidłowy</string>
+    <string name="checkout_error_email_invalid">Niepoprawny email</string>
+    <string name="checkout_error_expiration_date">Karta wygasła</string>
+    <string name="checkout_error_expiration_date_invalid">Data ważności karty jest nieprawidłowa, użyj formatu MM/RR lub MM/RRRR</string>
+    <string name="checkout_error_iban_account_number_invalid">Numer IBAN lub numer konta są nieprawidłowe</string>
+    <string name="checkout_error_iban_invalid">IBAN jest nieprawidłowy</string>
+    <string name="checkout_error_mobile_phone_number_invalid">Nieprawidłowy numer telefonu komórkowego</string>
+    <string name="checkout_error_national_identifier_invalid">Nieprawidłowy identyfikator krajowy</string>
+    <string name="checkout_error_security_code_invalid">Kod bezpieczeństwa musi zawierać 3 ostatnie cyfry na odwrocie karty</string>
+    <string name="checkout_error_security_code_invalid_amex">Kod bezpieczeństwa musi zawierać 4-cyfrowy numer z przodu karty</string>
+    <string name="checkout_fingerprint_cancel">Anuluj</string>
+    <string name="checkout_fingerprint_enter_pin">Wpisz PIN</string>
+    <string name="checkout_fingerprint_not_recognized">Nie rozpoznano odcisku palca, spróbuj ponownie</string>
+    <string name="checkout_fingerprint_success">Rozpoznano odcisk palca</string>
+    <string name="checkout_fingerprint_touch_sensor">Czujnik dotyku</string>
+    <string name="checkout_helper_account_number">Numer konta</string>
+    <string name="checkout_helper_account_verification">Weryfikacja konta</string>
+    <string name="checkout_helper_bic_bank_code">Kod BIC lub bankowy</string>
+    <string name="checkout_helper_card_holder">Imię, jakie widnieje na karcie</string>
+    <string name="checkout_helper_card_number">Długi numer z przodu karty</string>
+    <string name="checkout_helper_country_code" translatable="false">+xxx</string>
+    <string name="checkout_helper_expiration_date">Użyj formatu MM/RR lub MM/RRRR</string>
+    <string name="checkout_helper_iban">IBAN (międzynarodowy numer konta bankowego) powiązany z kontem bankowym</string>
+    <string name="checkout_helper_iban_account_number">IBAN lub numer konta</string>
+    <string name="checkout_helper_national_identifier">Krajowy identyfikator</string>
+    <string name="checkout_helper_phone_number" translatable="false">xxxxxxxxx</string>
+    <string name="checkout_helper_security_code">Ostatnie 3 cyfry na odwrocie karty</string>
+    <string name="checkout_helper_security_code_amex">4-cyfrowy kod z przodu karty</string>
+    <string name="checkout_layout_hint_account_number">Numer konta</string>
+    <string name="checkout_layout_hint_account_verification">Weryfikacja konta</string>
+    <string name="checkout_layout_hint_card_cvv">Kod bezpieczeństwa lub CVV</string>
+    <string name="checkout_layout_hint_card_expiration_date">Termin ważności</string>
+    <string name="checkout_layout_hint_card_holder">Imię i nazwisko posiadacza karty</string>
+    <string name="checkout_layout_hint_card_number">Numer karty kredytowej</string>
+    <string name="checkout_layout_hint_country_code">Kod pocztowy</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_account_holder">Właściciel konta</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_iban">IBAN</string>
+    <string name="checkout_layout_hint_email">E-mail</string>
+    <string name="checkout_layout_hint_national_identifier">Krajowy identyfikator</string>
+    <string name="checkout_layout_hint_phone_number">Numer telefonu komórkowego</string>
+    <string name="checkout_layout_text_accept_mbway_pin">Proszę zaakceptować transakcję za pomocą PIN MB WAY.</string>
+    <string name="checkout_layout_text_cards_payment_methods">Karty kredytowe / debetowe</string>
+    <string name="checkout_layout_text_finnish">Fiński</string>
+    <string formatted="false" name="checkout_layout_text_header_amount">%.2f %s</string>
+    <string name="checkout_layout_text_order_summary">Podsumowanie zamowienia</string>
+    <string name="checkout_layout_text_order_total">Razem</string>
+    <string name="checkout_layout_text_other_payment_methods">Inne metody płatności</string>
+    <string name="checkout_layout_text_pay">ZAPŁAĆ TERAZ</string>
+    <string name="checkout_layout_text_pay_amount">Zapłać %s</string>
+    <string name="checkout_layout_text_pay_with">Zapłać</string>
+    <string name="checkout_layout_text_payment_info">Informacje o płatności</string>
+    <string name="checkout_layout_text_push_notification_sent">Powiadomienie push zostanie wysłane do Twojego urządzenia.</string>
+    <string name="checkout_layout_text_qr_code">Kod QR</string>
+    <string name="checkout_layout_text_register">Zarejestruj</string>
+    <string name="checkout_layout_text_select_bank">Wybierz Bank</string>
+    <string name="checkout_layout_text_select_country">Wybierz kraj</string>
+    <string name="checkout_layout_text_select_payment_method">Metody Płatności</string>
+    <string name="checkout_layout_text_ship_to">Dostawa do</string>
+    <string name="checkout_layout_text_stcpay_method_select">Wybierz preferowaną metodę płatności:</string>
+    <string name="checkout_layout_text_stored_payment_methods">Przechowywane metody płatności</string>
+    <string name="checkout_layout_text_swedish">Szwedzki</string>
+    <string name="checkout_layout_text_terms_and_conditions">Regulamin</string>
+    <string name="checkout_layout_text_terms_and_conditions_agreement">Przeczytałem i akceptuję Regulamin</string>
+    <string name="checkout_layout_text_total_amount">Kwota ogółem</string>
+    <string name="checkout_number_of_installments">Liczba rat</string>
+    <string name="checkout_order_review">Przegląd zamówienia</string>
+    <string name="checkout_payment_details">Szczegóły płatności</string>
+    <string name="checkout_processing">Przetwarzanie</string>
+    <string name="checkout_tokenization_checkbox">Przechowuj szczegóły płatności do wykorzystania w przyszłości</string>
+    <string name="checkout_transaction_run">Proszę czekać</string>
+    <string name="directdebit_sepa" translatable="false">Polecenie zapłaty SEPA</string>
+    <string name="sofortueberweisung" translatable="false">BANKOWOŚĆ SOFORT</string>
+</resources>

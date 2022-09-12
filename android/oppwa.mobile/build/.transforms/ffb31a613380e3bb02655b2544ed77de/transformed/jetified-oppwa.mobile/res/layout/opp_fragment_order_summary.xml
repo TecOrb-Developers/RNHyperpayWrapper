@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?attr/windowBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".checkout.dialog.OrderSummaryFragment">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/opp_layout_actionbar"/>
+
+    <include
+        android:id="@+id/payment_button_layout"
+        layout="@layout/opp_layout_checkout_paybutton"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:id="@+id/payment_info_scroll_view"
+        android:layout_below="@id/header"
+        android:layout_above="@id/payment_button_layout"
+        android:layout_marginTop="15dp"
+        android:paddingTop="@dimen/checkout_payment_data_padding"
+        android:paddingBottom="@dimen/checkout_payment_data_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/checkout_payment_data_padding"
+            android:paddingRight="@dimen/checkout_payment_data_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/shipping_address_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    style="?attr/checkoutSecondaryTextViewStyle"
+                    android:textColor="@color/checkout_color_accent"
+                    android:layout_weight="1"
+                    android:text="@string/checkout_layout_text_ship_to"/>
+                <TextView
+                    android:id="@+id/shipping_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="@dimen/checkout_input_layout_text_size"
+                    style="?attr/checkoutTextViewStyle"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+                style="?attr/checkoutSecondaryTextViewStyle"
+                android:textColor="@color/checkout_color_accent"
+                android:layout_weight="1"
+                android:text="@string/checkout_layout_text_order_summary"/>
+
+            <LinearLayout
+                android:id="@+id/order_details_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            </LinearLayout>
+
+            <View
+                android:id="@+id/total_amount_divider"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/checkout_list_divider_color"/>
+
+            <LinearLayout
+                android:id="@+id/total_amount_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    style="?attr/checkoutOrderTotalTextViewStyle"
+                    android:layout_weight="1"
+                    android:text="@string/checkout_layout_text_order_total"/>
+                <TextView
+                    android:id="@+id/total_amount_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?attr/checkoutOrderTotalTextViewStyle"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?attr/checkoutSecondaryTextViewStyle"
+                android:textColor="@color/checkout_color_accent"
+                android:layout_marginBottom="10dp"
+                android:text="@string/checkout_layout_text_pay_with"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/card_description"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/checkout_input_layout_text_size"
+                    style="?attr/checkoutTextViewStyle"/>
+
+                <ImageView
+                    android:id="@+id/brand_logo"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:padding="5dp"
+                    style="?attr/checkoutMethodImageViewStyle"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

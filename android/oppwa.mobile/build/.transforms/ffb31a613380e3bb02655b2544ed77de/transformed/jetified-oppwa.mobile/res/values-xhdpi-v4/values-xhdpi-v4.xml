@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="checkout_input_layout_helper_text_size">14sp</dimen>
+    <dimen name="checkout_input_layout_hint_text_size">14sp</dimen>
+    <dimen name="checkout_input_layout_text_size">16sp</dimen>
+    <dimen name="header_text_size">22sp</dimen>
+</resources>
